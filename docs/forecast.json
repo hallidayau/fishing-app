@@ -25,7 +25,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "bennetts": {
     "name": "Bennetts Beach",
@@ -53,7 +53,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "stockton": {
     "name": "Stockton Beach",
@@ -81,7 +81,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "nobbys": {
     "name": "Nobbys Beach",
@@ -109,7 +109,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "swansea": {
     "name": "Swansea Channel",
@@ -137,7 +137,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "lake_mac": {
     "name": "Lake Macquarie",
@@ -165,7 +165,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "norah": {
     "name": "Norah Head",
@@ -193,7 +193,7 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   },
   "avoca": {
     "name": "Avoca Beach",
@@ -221,6 +221,6 @@
       "state": "Tides next step",
       "next": "We’ll wire tides after wind/swell is confirmed"
     },
-    "updatedAt": "2026-02-03T14:10:19.911Z"
+    "updatedAt": "2026-02-03T14:10:56.520Z"
   }
 }
