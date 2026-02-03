@@ -6,67 +6,50 @@ function degToCompass(deg) {
   return dirs[Math.round(deg / 45) % 8];
 }
 
-// Simple base score: wind-driven (we’ll refine later)
-function scoreFromWind(windKmh) {
-  if (windKmh < 8) return 5;
-  if (windKmh < 12) return 4;
-  if (windKmh < 18) return 3;
-  if (windKmh < 24) return 2;
-  return 1;
-}
-
-async function fetchOpenMeteo(lat, lon) {
-  // Wind (hourly) + Swell max (daily). If swell missing, we return null.
-  const url =
-    `https://api.open-meteo.com/v1/forecast` +
-    `?latitude=${lat}&longitude=${lon}` +
-    `&hourly=wind_speed_10m,wind_direction_10m` +
-    `&daily=wave_height_max` +
-    `&timezone=Australia/Sydney`;
-
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Open-Meteo failed ${res.status}`);
-  return res.json();
-}
-
 async function run() {
   const out = {};
   const updatedAt = new Date().toISOString();
 
   for (const loc of locations) {
-    const data = await fetchOpenMeteo(loc.lat, loc.lon);
+    const url =
+      `https://api.open-meteo.com/v1/forecast` +
+      `?latitude=${loc.lat}&longitude=${loc.lon}` +
+      `&hourly=wind_speed_10m,wind_direction_10m` +
+      `&daily=wave_height_max` +
+      `&timezone=Australia/Sydney`;
 
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`Open-Meteo failed ${res.status}`);
+
+    const data = await res.json();
     const windSpeed = data.hourly?.wind_speed_10m?.[0];
     const windDeg = data.hourly?.wind_direction_10m?.[0];
+    const swell = data.daily?.wave_height_max?.[0] ?? null;
 
     if (windSpeed == null || windDeg == null) {
-      throw new Error(`Missing wind for ${loc.id}`);
+      throw new Error(`Missing wind fields for ${loc.id}`);
     }
 
-    const swellMax = data.daily?.wave_height_max?.[0] ?? null;
-
-    const score = scoreFromWind(windSpeed);
+    const score =
+      windSpeed < 8 ? 5 :
+      windSpeed < 12 ? 4 :
+      windSpeed < 18 ? 3 :
+      windSpeed < 24 ? 2 : 1;
 
     out[loc.id] = {
       name: loc.name,
-      region: loc.region,
+      region: loc.region ?? "",
       score,
       recommendation: score >= 4 ? "GO" : score === 3 ? "MAYBE" : "DON'T GO",
       bestTimes: ["Dawn", "Dusk"],
-      species: score >= 4 ? ["Tailor", "Bream", "Flathead"] : ["Bream", "Flathead", "Whiting"],
-
+      species: score >= 4 ? ["Tailor","Bream","Flathead"] : ["Bream","Flathead","Whiting"],
       wind: {
         speed: Math.round(windSpeed),
         direction: degToCompass(windDeg),
         degrees: Math.round(windDeg)
       },
-      swell: {
-        height: swellMax == null ? null : Number(swellMax)
-      },
-      tide: {
-        state: "Tides next step",
-        next: "We’ll wire tides after wind/swell is confirmed"
-      },
+      swell: { height: swell == null ? null : Number(swell) },
+      tide: { state: "Tides next step", next: "Coming after wind/swell" },
       updatedAt
     };
   }
