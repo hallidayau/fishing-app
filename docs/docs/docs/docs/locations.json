@@ -1,0 +1,6 @@
+[
+  { "id": "hawks_nest", "name": "Hawks Nest", "region": "Port Stephens", "lat": -32.663, "lon": 152.182, "type": "open_beach" },
+  { "id": "stockton", "name": "Stockton Beach", "region": "Newcastle", "lat": -32.918, "lon": 151.792, "type": "open_beach" },
+  { "id": "swansea", "name": "Swansea Channel", "region": "Lake Macquarie", "lat": -33.088, "lon": 151.654, "type": "estuary" },
+  { "id": "norah", "name": "Norah Head", "region": "Central Coast", "lat": -33.281, "lon": 151.566, "type": "open_beach" }
+]
