@@ -1,22 +1,14 @@
 {
   "hawks_nest": {
     "name": "Hawks Nest",
+    "region": "Port Stephens",
     "score": 4,
     "recommendation": "GO",
     "bestTimes": ["Dawn", "Dusk"],
     "species": ["Tailor", "Bream", "Flathead"],
-
-    "wind": {
-      "speed": 12,
-      "direction": "NE",
-      "degrees": 45
-    },
-    "swell": {
-      "height": 1.4
-    },
-    "tide": {
-      "state": "Run-in",
-      "next": "High 8:10am"
-    }
+    "wind": { "speed": 10, "direction": "NE", "degrees": 45 },
+    "swell": { "height": 1.2 },
+    "tide": { "state": "Updating", "next": "Auto" },
+    "updatedAt": "—"
   }
 }
