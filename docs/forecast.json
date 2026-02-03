@@ -4,13 +4,19 @@
     "score": 4,
     "recommendation": "GO",
     "bestTimes": ["Dawn", "Dusk"],
-    "species": ["Tailor", "Bream", "Flathead"]
-  },
-  "stockton": {
-    "name": "Stockton Beach",
-    "score": 3,
-    "recommendation": "MAYBE",
-    "bestTimes": ["Early Morning"],
-    "species": ["Bream", "Whiting"]
+    "species": ["Tailor", "Bream", "Flathead"],
+
+    "wind": {
+      "speed": 12,
+      "direction": "NE",
+      "degrees": 45
+    },
+    "swell": {
+      "height": 1.4
+    },
+    "tide": {
+      "state": "Run-in",
+      "next": "High 8:10am"
+    }
   }
 }
