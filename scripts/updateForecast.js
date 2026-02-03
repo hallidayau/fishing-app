@@ -56,4 +56,70 @@ async function run() {
 
     // 7-day block from daily arrays
     const days = data.daily?.time?.slice(0, 7) ?? [];
-    const windMa
+    const windMax = data.daily?.wind_speed_10m_max?.slice(0, 7) ?? [];
+    const windDirDom = data.daily?.wind_direction_10m_dominant?.slice(0, 7) ?? [];
+    const swellMax = data.daily?.wave_height_max?.slice(0, 7) ?? [];
+    const weatherCode = data.daily?.weathercode?.slice(0, 7) ?? [];
+
+    const daily = days.map((date, i) => {
+      const w = windMax[i] ?? null;
+      const d = windDirDom[i] ?? 0;
+      const s = swellMax[i] ?? null;
+      const sc = w == null ? 3 : scoreFromWind(w); // fallback
+      return {
+        date,
+        score: sc,
+        recommendation: recommendation(sc),
+        wind: {
+          max: w == null ? null : Math.round(w),
+          direction: degToCompass(d),
+          degrees: Math.round(d)
+        },
+        swell: {
+          max: s == null ? null : Number(s)
+        },
+        weatherCode: weatherCode[i] ?? null,
+        species: topTargets(sc)
+      };
+    });
+
+    // Today card uses today’s daily if available, else hourly
+    const today = daily[0] ?? {
+      date: updatedAt.slice(0, 10),
+      score: scoreFromWind(windNow),
+      recommendation: recommendation(scoreFromWind(windNow)),
+      wind: { max: Math.round(windNow), direction: degToCompass(windDegNow), degrees: Math.round(windDegNow) },
+      swell: { max: null },
+      weatherCode: null,
+      species: topTargets(scoreFromWind(windNow))
+    };
+
+    out[loc.id] = {
+      name: loc.name,
+      region: loc.region ?? "",
+      updatedAt,
+      current: {
+        score: today.score,
+        recommendation: today.recommendation,
+        bestTimes: ["Dawn", "Dusk"],   // we can refine later with tide + light
+        species: today.species,
+        wind: {
+          speed: Math.round(windNow),
+          direction: degToCompass(windDegNow),
+          degrees: Math.round(windDegNow),
+          max: today.wind.max
+        },
+        swell: { height: today.swell.max },
+        tide: { state: "Tides next step", next: "We’ll wire tide times + chart next" }
+      },
+      daily
+    };
+  }
+
+  fs.writeFileSync("docs/forecast.json", JSON.stringify(out, null, 2));
+}
+
+run().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
