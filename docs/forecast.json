@@ -2,13 +2,225 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 5,
+      "direction": "E",
+      "degrees": 72
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "bennetts": {
+    "name": "Bennetts Beach",
+    "region": "Port Stephens",
     "score": 4,
     "recommendation": "GO",
-    "bestTimes": ["Dawn", "Dusk"],
-    "species": ["Tailor", "Bream", "Flathead"],
-    "wind": { "speed": 10, "direction": "NE", "degrees": 45 },
-    "swell": { "height": 1.2 },
-    "tide": { "state": "Updating", "next": "Auto" },
-    "updatedAt": "—"
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 10,
+      "direction": "NE",
+      "degrees": 41
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "stockton": {
+    "name": "Stockton Beach",
+    "region": "Newcastle",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 4,
+      "direction": "E",
+      "degrees": 85
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "nobbys": {
+    "name": "Nobbys Beach",
+    "region": "Newcastle",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 4,
+      "direction": "E",
+      "degrees": 85
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "swansea": {
+    "name": "Swansea Channel",
+    "region": "Lake Macquarie",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 8,
+      "direction": "NE",
+      "degrees": 31
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "lake_mac": {
+    "name": "Lake Macquarie",
+    "region": "Lake Macquarie",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 5,
+      "direction": "NE",
+      "degrees": 45
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "norah": {
+    "name": "Norah Head",
+    "region": "Central Coast",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 3,
+      "direction": "NE",
+      "degrees": 36
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
+  },
+  "avoca": {
+    "name": "Avoca Beach",
+    "region": "Central Coast",
+    "score": 5,
+    "recommendation": "GO",
+    "bestTimes": [
+      "Dawn",
+      "Dusk"
+    ],
+    "species": [
+      "Tailor",
+      "Bream",
+      "Flathead"
+    ],
+    "wind": {
+      "speed": 3,
+      "direction": "NE",
+      "degrees": 30
+    },
+    "swell": {
+      "height": null
+    },
+    "tide": {
+      "state": "Tides next step",
+      "next": "We’ll wire tides after wind/swell is confirmed"
+    },
+    "updatedAt": "2026-02-03T14:10:19.911Z"
   }
 }
