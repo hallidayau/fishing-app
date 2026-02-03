@@ -23,9 +23,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "bennetts": {
     "name": "Bennetts Beach",
@@ -51,9 +51,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "stockton": {
     "name": "Stockton Beach",
@@ -79,9 +79,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "nobbys": {
     "name": "Nobbys Beach",
@@ -107,9 +107,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "swansea": {
     "name": "Swansea Channel",
@@ -135,9 +135,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "lake_mac": {
     "name": "Lake Macquarie",
@@ -163,9 +163,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "norah": {
     "name": "Norah Head",
@@ -191,9 +191,9 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   },
   "avoca": {
     "name": "Avoca Beach",
@@ -219,8 +219,8 @@
     },
     "tide": {
       "state": "Tides next step",
-      "next": "We’ll wire tides after wind/swell is confirmed"
+      "next": "Coming after wind/swell"
     },
-    "updatedAt": "2026-02-03T14:10:56.520Z"
+    "updatedAt": "2026-02-03T14:16:23.380Z"
   }
 }
