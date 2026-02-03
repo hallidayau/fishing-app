@@ -2,7 +2,7 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -168,7 +168,7 @@
   "bennetts": {
     "name": "Bennetts Beach",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 2,
       "recommendation": "DON'T GO",
@@ -334,7 +334,7 @@
   "stockton": {
     "name": "Stockton Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -500,7 +500,7 @@
   "nobbys": {
     "name": "Nobbys Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -666,7 +666,7 @@
   "swansea": {
     "name": "Swansea Channel",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 2,
       "recommendation": "DON'T GO",
@@ -832,7 +832,7 @@
   "lake_mac": {
     "name": "Lake Macquarie",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -998,7 +998,7 @@
   "norah": {
     "name": "Norah Head",
     "region": "Central Coast",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1164,7 +1164,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-03T14:25:43.772Z",
+    "updatedAt": "2026-02-03T14:33:20.068Z",
     "current": {
       "score": 2,
       "recommendation": "DON'T GO",
