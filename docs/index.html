@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Fishing Forecast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NSW Fishing Forecast</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <select id="location"></select>
-  <div id="card"></div>
+  <div class="wrap">
+    <header class="top">
+      <h1>NSW Fishing Forecast</h1>
+      <select id="location"></select>
+    </header>
+
+    <main id="card" class="card"></main>
+
+    <footer class="foot">
+      Auto-updated by GitHub Actions.
+    </footer>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
