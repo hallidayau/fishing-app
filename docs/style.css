@@ -1,17 +1,32 @@
-body {
-  font-family: system-ui, sans-serif;
-  background: #0b132b;
-  color: white;
-  margin: 0;
-  padding: 1rem;
+.conditions {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
 }
-select {
-  width: 100%;
-  padding: 0.6rem;
-  margin-bottom: 1rem;
+
+.condition {
+  background: #3a506b;
+  padding: 0.7rem;
+  border-radius: 6px;
+  min-width: 110px;
 }
-#card {
-  background: #1c2541;
-  padding: 1rem;
-  border-radius: 8px;
+
+.compass {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+
+.arrow {
+  width: 2px;
+  height: 18px;
+  background: #ffcc00;
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  transform-origin: bottom center;
 }
