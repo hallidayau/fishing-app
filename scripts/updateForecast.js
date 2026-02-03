@@ -6,58 +6,54 @@ function degToCompass(deg) {
   return dirs[Math.round(deg / 45) % 8];
 }
 
-async function run() {
-  const out = {};
-  const updatedAt = new Date().toISOString();
-
-  for (const loc of locations) {
-    const url =
-      `https://api.open-meteo.com/v1/forecast` +
-      `?latitude=${loc.lat}&longitude=${loc.lon}` +
-      `&hourly=wind_speed_10m,wind_direction_10m` +
-      `&daily=wave_height_max` +
-      `&timezone=Australia/Sydney`;
-
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Open-Meteo failed ${res.status}`);
-
-    const data = await res.json();
-    const windSpeed = data.hourly?.wind_speed_10m?.[0];
-    const windDeg = data.hourly?.wind_direction_10m?.[0];
-    const swell = data.daily?.wave_height_max?.[0] ?? null;
-
-    if (windSpeed == null || windDeg == null) {
-      throw new Error(`Missing wind fields for ${loc.id}`);
-    }
-
-    const score =
-      windSpeed < 8 ? 5 :
-      windSpeed < 12 ? 4 :
-      windSpeed < 18 ? 3 :
-      windSpeed < 24 ? 2 : 1;
-
-    out[loc.id] = {
-      name: loc.name,
-      region: loc.region ?? "",
-      score,
-      recommendation: score >= 4 ? "GO" : score === 3 ? "MAYBE" : "DON'T GO",
-      bestTimes: ["Dawn", "Dusk"],
-      species: score >= 4 ? ["Tailor","Bream","Flathead"] : ["Bream","Flathead","Whiting"],
-      wind: {
-        speed: Math.round(windSpeed),
-        direction: degToCompass(windDeg),
-        degrees: Math.round(windDeg)
-      },
-      swell: { height: swell == null ? null : Number(swell) },
-      tide: { state: "Tides next step", next: "Coming after wind/swell" },
-      updatedAt
-    };
-  }
-
-  fs.writeFileSync("docs/forecast.json", JSON.stringify(out, null, 2));
+function scoreFromWind(windKmh) {
+  if (windKmh < 8) return 5;
+  if (windKmh < 12) return 4;
+  if (windKmh < 18) return 3;
+  if (windKmh < 24) return 2;
+  return 1;
 }
 
-run().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+function recommendation(score) {
+  return score >= 4 ? "GO" : score === 3 ? "MAYBE" : "DON'T GO";
+}
+
+async function fetchOpenMeteo(lat, lon) {
+  // Daily: max wind + dominant wind dir + swell max + weather code
+  const url =
+    `https://api.open-meteo.com/v1/forecast` +
+    `?latitude=${lat}&longitude=${lon}` +
+    `&hourly=wind_speed_10m,wind_direction_10m` +
+    `&daily=wind_speed_10m_max,wind_direction_10m_dominant,wave_height_max,weathercode` +
+    `&timezone=Australia/Sydney`;
+
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Open-Meteo failed ${res.status}`);
+  return res.json();
+}
+
+function topTargets(score) {
+  // simple “all fish grouped” behaviour: show 3 most likely targets
+  if (score >= 4) return ["Tailor", "Bream", "Flathead"];
+  if (score === 3) return ["Bream", "Whiting", "Squid"];
+  return ["Bream", "Flathead", "Luderick"];
+}
+
+async function run() {
+  const updatedAt = new Date().toISOString();
+  const out = {};
+
+  for (const loc of locations) {
+    const data = await fetchOpenMeteo(loc.lat, loc.lon);
+
+    // Current = first hourly datapoint (now-ish)
+    const windNow = data.hourly?.wind_speed_10m?.[0];
+    const windDegNow = data.hourly?.wind_direction_10m?.[0];
+
+    if (windNow == null || windDegNow == null) {
+      throw new Error(`Missing hourly wind for ${loc.id}`);
+    }
+
+    // 7-day block from daily arrays
+    const days = data.daily?.time?.slice(0, 7) ?? [];
+    const windMa
