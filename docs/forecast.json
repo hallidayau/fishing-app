@@ -2,24 +2,24 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
-      "score": 2,
-      "recommendation": "DON'T GO",
+      "score": 3,
+      "recommendation": "MAYBE",
       "bestTimes": [
         "Dawn",
         "Dusk"
       ],
       "species": [
         "Bream",
-        "Flathead",
-        "Luderick"
+        "Whiting",
+        "Squid"
       ],
       "wind": {
-        "speed": 5,
+        "speed": 10,
         "direction": "NE",
-        "degrees": 60,
-        "max": 18
+        "degrees": 46,
+        "max": 12
       },
       "swell": {
         "height": null
@@ -31,37 +31,18 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
-        "score": 2,
-        "recommendation": "DON'T GO",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 50
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Flathead",
-          "Luderick"
-        ]
-      },
-      {
         "date": "2026-02-05",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 14,
+          "max": 12,
           "direction": "NE",
-          "degrees": 60
+          "degrees": 64
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
+        "weatherCode": 2,
         "species": [
           "Bream",
           "Whiting",
@@ -73,9 +54,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
-          "direction": "E",
-          "degrees": 110
+          "max": 17,
+          "direction": "S",
+          "degrees": 159
         },
         "swell": {
           "max": null
@@ -89,21 +70,21 @@
       },
       {
         "date": "2026-02-07",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 5,
+        "recommendation": "GO",
         "wind": {
-          "max": 14,
-          "direction": "E",
-          "degrees": 101
+          "max": 7,
+          "direction": "W",
+          "degrees": 288
         },
         "swell": {
           "max": null
         },
         "weatherCode": 45,
         "species": [
+          "Tailor",
           "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead"
         ]
       },
       {
@@ -111,9 +92,28 @@
         "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 10,
-          "direction": "SW",
-          "degrees": 216
+          "max": 12,
+          "direction": "NE",
+          "degrees": 54
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-09",
+        "score": 5,
+        "recommendation": "GO",
+        "wind": {
+          "max": 7,
+          "direction": "E",
+          "degrees": 83
         },
         "swell": {
           "max": null
@@ -126,41 +126,41 @@
         ]
       },
       {
-        "date": "2026-02-09",
-        "score": 4,
-        "recommendation": "GO",
+        "date": "2026-02-10",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 9,
+          "max": 15,
+          "direction": "SE",
+          "degrees": 133
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 13,
           "direction": "NE",
           "degrees": 57
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 80,
+        "weatherCode": 3,
         "species": [
-          "Tailor",
           "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-10",
-        "score": 5,
-        "recommendation": "GO",
-        "wind": {
-          "max": 6,
-          "direction": "S",
-          "degrees": 188
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
+          "Whiting",
+          "Squid"
         ]
       }
     ]
@@ -168,9 +168,9 @@
   "bennetts": {
     "name": "Bennetts Beach",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
-      "score": 1,
+      "score": 2,
       "recommendation": "DON'T GO",
       "bestTimes": [
         "Dawn",
@@ -182,10 +182,10 @@
         "Luderick"
       ],
       "wind": {
-        "speed": 11,
+        "speed": 19,
         "direction": "NE",
-        "degrees": 45,
-        "max": 25
+        "degrees": 37,
+        "max": 19
       },
       "swell": {
         "height": null
@@ -197,13 +197,13 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
-        "score": 1,
+        "date": "2026-02-05",
+        "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 25,
+          "max": 19,
           "direction": "NE",
-          "degrees": 41
+          "degrees": 43
         },
         "swell": {
           "max": null
@@ -216,11 +216,49 @@
         ]
       },
       {
-        "date": "2026-02-05",
+        "date": "2026-02-06",
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 19,
+          "max": 20,
+          "direction": "S",
+          "degrees": 177
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Flathead",
+          "Luderick"
+        ]
+      },
+      {
+        "date": "2026-02-07",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 11,
+          "direction": "NW",
+          "degrees": 325
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
+        "species": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-08",
+        "score": 2,
+        "recommendation": "DON'T GO",
+        "wind": {
+          "max": 18,
           "direction": "NE",
           "degrees": 40
         },
@@ -235,75 +273,18 @@
         ]
       },
       {
-        "date": "2026-02-06",
-        "score": 2,
-        "recommendation": "DON'T GO",
-        "wind": {
-          "max": 19,
-          "direction": "SE",
-          "degrees": 123
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Flathead",
-          "Luderick"
-        ]
-      },
-      {
-        "date": "2026-02-07",
-        "score": 2,
-        "recommendation": "DON'T GO",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 52
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Flathead",
-          "Luderick"
-        ]
-      },
-      {
-        "date": "2026-02-08",
-        "score": 1,
-        "recommendation": "DON'T GO",
-        "wind": {
-          "max": 25,
-          "direction": "SW",
-          "degrees": 218
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 61,
-        "species": [
-          "Bream",
-          "Flathead",
-          "Luderick"
-        ]
-      },
-      {
         "date": "2026-02-09",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 12,
+          "max": 13,
           "direction": "NE",
-          "degrees": 47
+          "degrees": 59
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
+        "weatherCode": 80,
         "species": [
           "Bream",
           "Whiting",
@@ -312,21 +293,40 @@
       },
       {
         "date": "2026-02-10",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "N",
-          "degrees": 345
+          "max": 16,
+          "direction": "SE",
+          "degrees": 150
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 80,
+        "weatherCode": 2,
         "species": [
-          "Tailor",
           "Bream",
-          "Flathead"
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 2,
+        "recommendation": "DON'T GO",
+        "wind": {
+          "max": 18,
+          "direction": "NE",
+          "degrees": 51
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Flathead",
+          "Luderick"
         ]
       }
     ]
@@ -334,24 +334,24 @@
   "stockton": {
     "name": "Stockton Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
-      "score": 3,
-      "recommendation": "MAYBE",
+      "score": 4,
+      "recommendation": "GO",
       "bestTimes": [
         "Dawn",
         "Dusk"
       ],
       "species": [
+        "Tailor",
         "Bream",
-        "Whiting",
-        "Squid"
+        "Flathead"
       ],
       "wind": {
         "speed": 5,
-        "direction": "E",
-        "degrees": 72,
-        "max": 17
+        "direction": "NE",
+        "degrees": 54,
+        "max": 11
       },
       "swell": {
         "height": null
@@ -363,32 +363,13 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "NE",
-          "degrees": 57
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
         "date": "2026-02-05",
         "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 10,
-          "direction": "N",
-          "degrees": 10
+          "max": 11,
+          "direction": "NE",
+          "degrees": 46
         },
         "swell": {
           "max": null
@@ -402,12 +383,12 @@
       },
       {
         "date": "2026-02-06",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 17,
+          "max": 19,
           "direction": "S",
-          "degrees": 168
+          "degrees": 172
         },
         "swell": {
           "max": null
@@ -415,23 +396,42 @@
         "weatherCode": 3,
         "species": [
           "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead",
+          "Luderick"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "N",
-          "degrees": 344
+          "max": 12,
+          "direction": "NW",
+          "degrees": 296
         },
         "swell": {
           "max": null
         },
         "weatherCode": 45,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-08",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 8,
+          "direction": "NE",
+          "degrees": 50
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
         "species": [
           "Tailor",
           "Bream",
@@ -439,37 +439,18 @@
         ]
       },
       {
-        "date": "2026-02-08",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "date": "2026-02-09",
+        "score": 5,
+        "recommendation": "GO",
         "wind": {
-          "max": 13,
-          "direction": "S",
-          "degrees": 189
+          "max": 6,
+          "direction": "SE",
+          "degrees": 132
         },
         "swell": {
           "max": null
         },
         "weatherCode": 61,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
-        "date": "2026-02-09",
-        "score": 5,
-        "recommendation": "GO",
-        "wind": {
-          "max": 7,
-          "direction": "N",
-          "degrees": 350
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
         "species": [
           "Tailor",
           "Bream",
@@ -478,17 +459,36 @@
       },
       {
         "date": "2026-02-10",
-        "score": 5,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 7,
-          "direction": "S",
-          "degrees": 190
+          "max": 15,
+          "direction": "SE",
+          "degrees": 129
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 80,
+        "weatherCode": 2,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 11,
+          "direction": "NE",
+          "degrees": 64
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
         "species": [
           "Tailor",
           "Bream",
@@ -500,24 +500,24 @@
   "nobbys": {
     "name": "Nobbys Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
-      "score": 3,
-      "recommendation": "MAYBE",
+      "score": 4,
+      "recommendation": "GO",
       "bestTimes": [
         "Dawn",
         "Dusk"
       ],
       "species": [
+        "Tailor",
         "Bream",
-        "Whiting",
-        "Squid"
+        "Flathead"
       ],
       "wind": {
         "speed": 5,
-        "direction": "E",
-        "degrees": 72,
-        "max": 17
+        "direction": "NE",
+        "degrees": 54,
+        "max": 11
       },
       "swell": {
         "height": null
@@ -529,207 +529,22 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "NE",
-          "degrees": 57
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
         "date": "2026-02-05",
-        "score": 4,
-        "recommendation": "GO",
-        "wind": {
-          "max": 10,
-          "direction": "N",
-          "degrees": 10
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-06",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "S",
-          "degrees": 168
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
-        "date": "2026-02-07",
         "score": 4,
         "recommendation": "GO",
         "wind": {
           "max": 11,
-          "direction": "N",
-          "degrees": 344
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 45,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-08",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 13,
-          "direction": "S",
-          "degrees": 189
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 61,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
-        "date": "2026-02-09",
-        "score": 5,
-        "recommendation": "GO",
-        "wind": {
-          "max": 7,
-          "direction": "N",
-          "degrees": 350
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-10",
-        "score": 5,
-        "recommendation": "GO",
-        "wind": {
-          "max": 7,
-          "direction": "S",
-          "degrees": 190
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      }
-    ]
-  },
-  "swansea": {
-    "name": "Swansea Channel",
-    "region": "Lake Macquarie",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
-    "current": {
-      "score": 2,
-      "recommendation": "DON'T GO",
-      "bestTimes": [
-        "Dawn",
-        "Dusk"
-      ],
-      "species": [
-        "Bream",
-        "Flathead",
-        "Luderick"
-      ],
-      "wind": {
-        "speed": 8,
-        "direction": "NE",
-        "degrees": 32,
-        "max": 20
-      },
-      "swell": {
-        "height": null
-      },
-      "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
-      }
-    },
-    "daily": [
-      {
-        "date": "2026-02-04",
-        "score": 2,
-        "recommendation": "DON'T GO",
-        "wind": {
-          "max": 20,
           "direction": "NE",
-          "degrees": 42
+          "degrees": 46
         },
         "swell": {
           "max": null
         },
         "weatherCode": 3,
         "species": [
+          "Tailor",
           "Bream",
-          "Flathead",
-          "Luderick"
-        ]
-      },
-      {
-        "date": "2026-02-05",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "NE",
-          "degrees": 26
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead"
         ]
       },
       {
@@ -737,9 +552,9 @@
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "S",
-          "degrees": 168
+          "degrees": 172
         },
         "swell": {
           "max": null
@@ -757,8 +572,8 @@
         "recommendation": "MAYBE",
         "wind": {
           "max": 12,
-          "direction": "NE",
-          "degrees": 25
+          "direction": "NW",
+          "degrees": 296
         },
         "swell": {
           "max": null
@@ -772,31 +587,31 @@
       },
       {
         "date": "2026-02-08",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 13,
-          "direction": "SW",
-          "degrees": 204
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
-        "date": "2026-02-09",
         "score": 4,
         "recommendation": "GO",
         "wind": {
           "max": 8,
-          "direction": "NW",
-          "degrees": 316
+          "direction": "NE",
+          "degrees": 50
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-09",
+        "score": 5,
+        "recommendation": "GO",
+        "wind": {
+          "max": 6,
+          "direction": "SE",
+          "degrees": 132
         },
         "swell": {
           "max": null
@@ -810,17 +625,36 @@
       },
       {
         "date": "2026-02-10",
-        "score": 5,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 7,
-          "direction": "E",
-          "degrees": 94
+          "max": 15,
+          "direction": "SE",
+          "degrees": 129
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 80,
+        "weatherCode": 2,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 11,
+          "direction": "NE",
+          "degrees": 64
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
         "species": [
           "Tailor",
           "Bream",
@@ -829,10 +663,176 @@
       }
     ]
   },
+  "swansea": {
+    "name": "Swansea Channel",
+    "region": "Lake Macquarie",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
+    "current": {
+      "score": 3,
+      "recommendation": "MAYBE",
+      "bestTimes": [
+        "Dawn",
+        "Dusk"
+      ],
+      "species": [
+        "Bream",
+        "Whiting",
+        "Squid"
+      ],
+      "wind": {
+        "speed": 7,
+        "direction": "N",
+        "degrees": 15,
+        "max": 17
+      },
+      "swell": {
+        "height": null
+      },
+      "tide": {
+        "state": "Tides next step",
+        "next": "We’ll wire tide times + chart next"
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-02-05",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "NE",
+          "degrees": 42
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-06",
+        "score": 2,
+        "recommendation": "DON'T GO",
+        "wind": {
+          "max": 21,
+          "direction": "S",
+          "degrees": 173
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Flathead",
+          "Luderick"
+        ]
+      },
+      {
+        "date": "2026-02-07",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 12,
+          "direction": "W",
+          "degrees": 277
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-08",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 10,
+          "direction": "NE",
+          "degrees": 44
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-09",
+        "score": 4,
+        "recommendation": "GO",
+        "wind": {
+          "max": 10,
+          "direction": "E",
+          "degrees": 108
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 61,
+        "species": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-10",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 16,
+          "direction": "SE",
+          "degrees": 122
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 2,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 12,
+          "direction": "NE",
+          "degrees": 45
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      }
+    ]
+  },
   "lake_mac": {
     "name": "Lake Macquarie",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -847,9 +847,9 @@
       ],
       "wind": {
         "speed": 4,
-        "direction": "NE",
-        "degrees": 38,
-        "max": 15
+        "direction": "N",
+        "degrees": 5,
+        "max": 13
       },
       "swell": {
         "height": null
@@ -861,13 +861,13 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
+        "date": "2026-02-05",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
-          "direction": "NE",
-          "degrees": 47
+          "max": 13,
+          "direction": "NW",
+          "degrees": 313
         },
         "swell": {
           "max": null
@@ -880,37 +880,18 @@
         ]
       },
       {
-        "date": "2026-02-05",
-        "score": 4,
-        "recommendation": "GO",
+        "date": "2026-02-06",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 9,
-          "direction": "NW",
-          "degrees": 299
+          "max": 13,
+          "direction": "SE",
+          "degrees": 136
         },
         "swell": {
           "max": null
         },
         "weatherCode": 3,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-06",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "E",
-          "degrees": 101
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 45,
         "species": [
           "Bream",
           "Whiting",
@@ -919,21 +900,21 @@
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "NW",
-          "degrees": 312
+          "max": 14,
+          "direction": "W",
+          "degrees": 287
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
+        "weatherCode": 61,
         "species": [
-          "Tailor",
           "Bream",
-          "Flathead"
+          "Whiting",
+          "Squid"
         ]
       },
       {
@@ -941,9 +922,9 @@
         "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 8,
-          "direction": "SW",
-          "degrees": 228
+          "max": 6,
+          "direction": "N",
+          "degrees": 6
         },
         "swell": {
           "max": null
@@ -960,9 +941,9 @@
         "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 5,
-          "direction": "NW",
-          "degrees": 314
+          "max": 7,
+          "direction": "NE",
+          "degrees": 51
         },
         "swell": {
           "max": null
@@ -976,12 +957,31 @@
       },
       {
         "date": "2026-02-10",
-        "score": 5,
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "E",
+          "degrees": 110
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 3,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 5,
-          "direction": "W",
-          "degrees": 255
+          "max": 9,
+          "direction": "NE",
+          "degrees": 26
         },
         "swell": {
           "max": null
@@ -998,7 +998,7 @@
   "norah": {
     "name": "Norah Head",
     "region": "Central Coast",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1012,10 +1012,10 @@
         "Squid"
       ],
       "wind": {
-        "speed": 3,
+        "speed": 2,
         "direction": "NE",
-        "degrees": 32,
-        "max": 17
+        "degrees": 27,
+        "max": 14
       },
       "swell": {
         "height": null
@@ -1027,13 +1027,32 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
+        "date": "2026-02-05",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 17,
-          "direction": "NE",
-          "degrees": 50
+          "max": 14,
+          "direction": "SE",
+          "degrees": 121
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-06",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "SE",
+          "degrees": 152
         },
         "swell": {
           "max": null
@@ -1046,32 +1065,13 @@
         ]
       },
       {
-        "date": "2026-02-05",
-        "score": 4,
-        "recommendation": "GO",
-        "wind": {
-          "max": 12,
-          "direction": "S",
-          "degrees": 158
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 45,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-06",
+        "date": "2026-02-07",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
           "max": 15,
-          "direction": "SE",
-          "degrees": 132
+          "direction": "W",
+          "degrees": 289
         },
         "swell": {
           "max": null
@@ -1084,32 +1084,13 @@
         ]
       },
       {
-        "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
-        "wind": {
-          "max": 10,
-          "direction": "NW",
-          "degrees": 297
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 45,
-        "species": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
         "date": "2026-02-08",
-        "score": 4,
+        "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 10,
-          "direction": "SW",
-          "degrees": 235
+          "max": 8,
+          "direction": "NE",
+          "degrees": 23
         },
         "swell": {
           "max": null
@@ -1127,8 +1108,8 @@
         "recommendation": "GO",
         "wind": {
           "max": 7,
-          "direction": "NW",
-          "degrees": 307
+          "direction": "E",
+          "degrees": 107
         },
         "swell": {
           "max": null
@@ -1142,21 +1123,40 @@
       },
       {
         "date": "2026-02-10",
-        "score": 5,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 8,
-          "direction": "SW",
-          "degrees": 207
+          "max": 15,
+          "direction": "E",
+          "degrees": 98
         },
         "swell": {
           "max": null
         },
         "weatherCode": 45,
         "species": [
-          "Tailor",
           "Bream",
-          "Flathead"
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 13,
+          "direction": "NE",
+          "degrees": 52
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
         ]
       }
     ]
@@ -1164,7 +1164,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-04T06:51:58.837Z",
+    "updatedAt": "2026-02-04T18:51:02.761Z",
     "current": {
       "score": 2,
       "recommendation": "DON'T GO",
@@ -1180,8 +1180,8 @@
       "wind": {
         "speed": 3,
         "direction": "N",
-        "degrees": 13,
-        "max": 18
+        "degrees": 360,
+        "max": 19
       },
       "swell": {
         "height": null
@@ -1193,18 +1193,18 @@
     },
     "daily": [
       {
-        "date": "2026-02-04",
+        "date": "2026-02-05",
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 44
+          "max": 19,
+          "direction": "E",
+          "degrees": 97
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
+        "weatherCode": 45,
         "species": [
           "Bream",
           "Flathead",
@@ -1212,37 +1212,18 @@
         ]
       },
       {
-        "date": "2026-02-05",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 14,
-          "direction": "SE",
-          "degrees": 120
-        },
-        "swell": {
-          "max": null
-        },
-        "weatherCode": 80,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
-        ]
-      },
-      {
         "date": "2026-02-06",
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 17,
           "direction": "SE",
-          "degrees": 124
+          "degrees": 146
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
+        "weatherCode": 3,
         "species": [
           "Bream",
           "Whiting",
@@ -1254,9 +1235,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
-          "direction": "N",
-          "degrees": 342
+          "max": 17,
+          "direction": "NW",
+          "degrees": 302
         },
         "swell": {
           "max": null
@@ -1270,12 +1251,12 @@
       },
       {
         "date": "2026-02-08",
-        "score": 4,
+        "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 11,
-          "direction": "SW",
-          "degrees": 234
+          "max": 7,
+          "direction": "E",
+          "degrees": 77
         },
         "swell": {
           "max": null
@@ -1289,17 +1270,17 @@
       },
       {
         "date": "2026-02-09",
-        "score": 4,
+        "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 9,
-          "direction": "W",
-          "degrees": 292
+          "max": 6,
+          "direction": "SE",
+          "degrees": 131
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
+        "weatherCode": 80,
         "species": [
           "Tailor",
           "Bream",
@@ -1308,21 +1289,40 @@
       },
       {
         "date": "2026-02-10",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 10,
-          "direction": "S",
-          "degrees": 177
+          "max": 16,
+          "direction": "E",
+          "degrees": 79
         },
         "swell": {
           "max": null
         },
         "weatherCode": 45,
         "species": [
-          "Tailor",
           "Bream",
-          "Flathead"
+          "Whiting",
+          "Squid"
+        ]
+      },
+      {
+        "date": "2026-02-11",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "NE",
+          "degrees": 52
+        },
+        "swell": {
+          "max": null
+        },
+        "weatherCode": 45,
+        "species": [
+          "Bream",
+          "Whiting",
+          "Squid"
         ]
       }
     ]
