@@ -2,7 +2,7 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -71,7 +71,7 @@
       {
         "date": "2026-02-07",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 20,
           "direction": "W",
@@ -109,7 +109,7 @@
       {
         "date": "2026-02-09",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 10,
           "direction": "W",
@@ -168,10 +168,10 @@
   "bennetts": {
     "name": "Bennetts Beach",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 2,
-      "recommendation": "DON'T GO",
+      "recommendation": "GO TO PUB",
       "bestTimes": [
         "Dawn",
         "Dusk"
@@ -199,7 +199,7 @@
       {
         "date": "2026-02-05",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 19,
           "direction": "NE",
@@ -218,7 +218,7 @@
       {
         "date": "2026-02-06",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 22,
           "direction": "E",
@@ -237,7 +237,7 @@
       {
         "date": "2026-02-07",
         "score": 1,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 28,
           "direction": "NW",
@@ -256,7 +256,7 @@
       {
         "date": "2026-02-08",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 19,
           "direction": "NE",
@@ -313,7 +313,7 @@
       {
         "date": "2026-02-11",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 20,
           "direction": "NE",
@@ -334,7 +334,7 @@
   "stockton": {
     "name": "Stockton Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -422,7 +422,7 @@
       {
         "date": "2026-02-08",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 11,
           "direction": "E",
@@ -441,7 +441,7 @@
       {
         "date": "2026-02-09",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 9,
           "direction": "NW",
@@ -479,7 +479,7 @@
       {
         "date": "2026-02-11",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 10,
           "direction": "E",
@@ -500,7 +500,7 @@
   "nobbys": {
     "name": "Nobbys Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -588,7 +588,7 @@
       {
         "date": "2026-02-08",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 11,
           "direction": "E",
@@ -607,7 +607,7 @@
       {
         "date": "2026-02-09",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 9,
           "direction": "NW",
@@ -645,7 +645,7 @@
       {
         "date": "2026-02-11",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 10,
           "direction": "E",
@@ -666,7 +666,7 @@
   "swansea": {
     "name": "Swansea Channel",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -716,7 +716,7 @@
       {
         "date": "2026-02-06",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 19,
           "direction": "S",
@@ -735,7 +735,7 @@
       {
         "date": "2026-02-07",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 20,
           "direction": "W",
@@ -754,7 +754,7 @@
       {
         "date": "2026-02-08",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 11,
           "direction": "NE",
@@ -773,7 +773,7 @@
       {
         "date": "2026-02-09",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 10,
           "direction": "N",
@@ -832,10 +832,10 @@
   "lake_mac": {
     "name": "Lake Macquarie",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 4,
-      "recommendation": "GO",
+      "recommendation": "SEND IT",
       "bestTimes": [
         "Dawn",
         "Dusk"
@@ -863,7 +863,7 @@
       {
         "date": "2026-02-05",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 11,
           "direction": "N",
@@ -920,7 +920,7 @@
       {
         "date": "2026-02-08",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 7,
           "direction": "NW",
@@ -939,7 +939,7 @@
       {
         "date": "2026-02-09",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 5,
           "direction": "NW",
@@ -977,7 +977,7 @@
       {
         "date": "2026-02-11",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 6,
           "direction": "NW",
@@ -998,7 +998,7 @@
   "norah": {
     "name": "Norah Head",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1067,7 +1067,7 @@
       {
         "date": "2026-02-07",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 23,
           "direction": "NW",
@@ -1086,7 +1086,7 @@
       {
         "date": "2026-02-08",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 7,
           "direction": "NW",
@@ -1105,7 +1105,7 @@
       {
         "date": "2026-02-09",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 5,
           "direction": "NW",
@@ -1143,7 +1143,7 @@
       {
         "date": "2026-02-11",
         "score": 5,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 7,
           "direction": "N",
@@ -1164,7 +1164,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T11:11:06.830Z",
+    "updatedAt": "2026-02-05T11:53:46.021Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1233,7 +1233,7 @@
       {
         "date": "2026-02-07",
         "score": 2,
-        "recommendation": "DON'T GO",
+        "recommendation": "GO TO PUB",
         "wind": {
           "max": 23,
           "direction": "NW",
@@ -1252,7 +1252,7 @@
       {
         "date": "2026-02-08",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 10,
           "direction": "N",
@@ -1271,7 +1271,7 @@
       {
         "date": "2026-02-09",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 8,
           "direction": "NW",
@@ -1309,7 +1309,7 @@
       {
         "date": "2026-02-11",
         "score": 4,
-        "recommendation": "GO",
+        "recommendation": "SEND IT",
         "wind": {
           "max": 9,
           "direction": "N",
