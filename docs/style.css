@@ -1,12 +1,11 @@
 /* RESET */
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: radial-gradient(1200px 600px at top, #13203b, #070b18);
   color: #fff;
+  overflow-x: hidden;
 }
 
 /* LAYOUT */
@@ -14,26 +13,26 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
+  gap: 12px;
 }
 
-h1 {
-  margin: 0;
-  font-size: 26px;
-}
+h1 { margin: 0; font-size: 26px; }
 
 select {
   background: #1d2a4a;
   color: #fff;
   border: 1px solid rgba(255,255,255,.2);
-  border-radius: 10px;
-  padding: 8px 12px;
+  border-radius: 12px;
+  padding: 10px 12px;
 }
 
 /* CARD */
@@ -49,29 +48,20 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  gap: 10px;
 }
-.locName {
-  margin: 0;
-  font-size: 22px;
-}
-.region {
-  opacity: .75;
-  font-size: 13px;
-}
+.locName { margin: 0; font-size: 22px; }
+.region { opacity: .75; font-size: 13px; }
 
 /* STARS */
-.stars {
-  margin: 10px 0;
-  font-size: 22px;
-}
-.empty {
-  color: rgba(255,255,255,.25);
-}
+.stars { margin: 10px 0; font-size: 22px; }
+.empty { color: rgba(255,255,255,.25); }
+
 .rec {
   display: inline-block;
   padding: 6px 12px;
   border-radius: 999px;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 13px;
   background: rgba(255,255,255,.12);
 }
@@ -89,54 +79,36 @@ select {
   border-radius: 16px;
   padding: 14px;
 }
-.label {
-  font-size: 12px;
-  opacity: .75;
-}
-.value {
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 4px;
-}
-.tiny {
-  font-size: 12px;
-  opacity: .75;
-  margin-top: 4px;
-}
+.label { font-size: 12px; opacity: .75; }
+.value { font-size: 18px; font-weight: 800; margin-top: 4px; }
+.tiny { font-size: 12px; opacity: .75; margin-top: 4px; }
 
 /* WIND COMPASS */
-.windRow {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
+.windRow { display: flex; gap: 12px; align-items: center; }
 .compass {
-  width: 46px;
-  height: 46px;
+  width: 46px; height: 46px;
   border-radius: 50%;
   border: 2px solid rgba(255,255,255,.35);
   position: relative;
+  flex: 0 0 auto;
 }
 .arrow {
-  width: 18px;
-  height: 2px;
+  width: 18px; height: 2px;
   background: #ffd54a;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50%; left: 50%;
   transform-origin: left center;
 }
 
 /* WEEKLY */
-.sectionTitle {
-  margin: 18px 0 10px;
-  font-size: 14px;
-  opacity: .85;
-}
+.sectionTitle { margin: 18px 0 10px; font-size: 14px; opacity: .85; }
+
 .daysRow {
   display: flex;
   gap: 10px;
   overflow-x: auto;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
 }
 .day {
   min-width: 120px;
@@ -145,28 +117,46 @@ select {
   border-radius: 14px;
   padding: 10px;
   cursor: pointer;
+  color: #fff;
+  text-align: left;
 }
-.dayTop {
-  font-size: 12px;
-  opacity: .8;
-}
-.dayStars {
-  margin: 6px 0;
-}
+.dayTop { font-size: 12px; opacity: .8; }
+.dayStars { margin: 6px 0; }
 .dayMeta {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
   opacity: .85;
+}
+
+/* DETAIL */
+.detail { margin-top: 14px; }
+.detailCard {
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 16px;
+  padding: 14px;
+}
+.detailTitle { font-weight: 900; margin-bottom: 8px; }
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+/* FOOTER */
+.foot { font-size: 12px; opacity: .6; text-align: center; }
+
+/* MOBILE */
 @media (max-width: 640px) {
-  .wrap { padding: 14px; }
-  .top { flex-direction: column; gap: 10px; }
+  .wrap { padding: 12px; gap: 10px; }
+  .top { flex-direction: column; align-items: stretch; }
+  h1 { font-size: 20px; text-align: center; }
   select { width: 100%; }
 
   .grid { grid-template-columns: 1fr; }
   .day { min-width: 160px; }
+  .detailGrid { grid-template-columns: 1fr; }
 
-  h1 { font-size: 20px; text-align: center; }
-  .titleRow { flex-direction: column; gap: 6px; }
+  .titleRow { flex-direction: column; align-items: flex-start; }
 }
-
