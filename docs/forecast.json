@@ -2,7 +2,7 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -168,7 +168,7 @@
   "fingal_bay": {
     "name": "Fingal Bay",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 2,
       "recommendation": "GO TO PUB",
@@ -334,7 +334,7 @@
   "nelson_bay": {
     "name": "Nelson Bay",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 2,
       "recommendation": "GO TO PUB",
@@ -500,7 +500,7 @@
   "newcastle_beach": {
     "name": "Newcastle Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -666,7 +666,7 @@
   "merewether": {
     "name": "Merewether",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -832,7 +832,7 @@
   "swansea": {
     "name": "Swansea",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -998,7 +998,7 @@
   "caves_beach": {
     "name": "Caves Beach",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1164,7 +1164,7 @@
   "redhead": {
     "name": "Redhead",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1330,7 +1330,7 @@
   "terrigerl": {
     "name": "Terrigal",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1496,7 +1496,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1662,7 +1662,7 @@
   "the_entrance": {
     "name": "The Entrance",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T12:02:55.670Z",
+    "updatedAt": "2026-02-05T12:43:36.918Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
