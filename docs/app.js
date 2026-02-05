@@ -87,6 +87,9 @@ next}</div>
 
         <div class="detail" id="detail"></div>
         <div class="tiny">Updated: ${d.updatedAt}</div>
+        <div><b>Tide</b><br/>${day.tideState ?? "—"}</div>
+<div><b>Targets</b><br/>${(day.speciesTop ?? []).join(", ")}</div>
+
       `;
 
       // Details on click
