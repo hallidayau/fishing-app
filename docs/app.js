@@ -31,6 +31,12 @@ function approxNextTideChangeTime(now = new Date()) {
   const next = new Date(base.getTime() + n * cycleMs);
   return next.toLocaleTimeString("en-AU", { hour: "2-digit", minute: "2-digit" });
 }
+function bestWindowToday(wind) {
+  if (!wind || wind.speed == null) return "Dawn – early morning";
+  if (wind.speed < 10) return "Dawn – mid morning";
+  if (wind.speed < 16) return "Early morning";
+  return "Late afternoon";
+}
 
 fetch("forecast.json", { cache: "no-store" })
   .then(r => r.json())
@@ -132,6 +138,7 @@ const swellClass = isBay
         </div>
 
         <div class="tiny"><b>Best times:</b> ${(c.bestTimes || []).join(", ")}</div>
+<div class="tiny"><b>Best window today:</b> ${bestWindowToday(wind)} (approx)</div>
         <div class="tiny"><b>Top targets:</b> ${(c.species || []).join(", ")}</div>
 
         <h3 class="sectionTitle">7-day outlook</h3>
