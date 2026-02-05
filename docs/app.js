@@ -75,9 +75,16 @@ fetch("forecast.json", { cache: "no-store" })
       const tide = c.tide || {};
       const daily = d.daily || [];
 
-      const swellClass =
-        swell.height > 2.0 ? "swell-high" :
-        swell.height >= 1.5 ? "swell-mid" : "";
+      const isBay =
+  /bay|harbour|harbor|lake|entrance/i.test(d.region + " " + d.name);
+
+const swellClass = isBay
+  ? ""
+  : swell.height > 2.0
+    ? "swell-high"
+    : swell.height >= 1.5
+      ? "swell-mid"
+      : "";
 
       card.innerHTML = `
         <div class="titleRow">
