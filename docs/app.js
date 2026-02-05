@@ -169,21 +169,22 @@ const swellClass = isBay
         <div class="daysList">
           ${daily.slice(0,7).map(day => `
             <div class="dayRow">
-              <div>
-                <div class="dayWhen">${dayLabel(day.date)}</div>
-                <div class="dayStars">${stars(day.score)}</div>
-              </div>
-              <div class="dayMid">
-                <b>${day.recommendation}</b>
-                <div class="tiny">${(day.speciesTop || []).join(", ")}</div>
-              </div>
-              <div class="dayRight">
-                ${fmt(day.wind?.max," km/h")} ${day.wind?.direction || ""}
-                ${fmt(day.swell?.max," m")}
-              </div>
-            </div>
-          `).join("")}
-        </div>
+  <div>
+    <div class="dayWhen">${day.dateLabel}</div>
+    <div class="dayStars">${renderStars(day.score)}</div>
+  </div>
+
+  <div class="dayMid">
+    <strong>${day.recommendation}</strong>
+    <div class="tiny">${dayReport(day)}</div>
+    <div class="tiny">Targets: ${day.targets.join(", ")}</div>
+  </div>
+
+  <div class="dayRight">
+    ${day.windMax} km/h ${day.windDir}
+  </div>
+</div>
+
 
         <div class="tiny">Updated: ${d.updatedAt}</div>
       `;
