@@ -51,16 +51,48 @@ select{
 .locName{ margin:0; font-size:22px; }
 .region{ opacity:.75; font-size:13px; }
 
-/* STARS + BADGE */
-.stars{ margin:10px 0; font-size:22px; }
-.empty{ color:rgba(255,255,255,.25); }
-.rec{
-  display:inline-block;
-  padding:6px 12px;
-  border-radius:999px;
-  font-weight:900;
-  font-size:13px;
-  background: rgba(255,255,255,.12);
+/* STARS – FLAT & EVEN */
+.stars,
+.dayStars {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.star {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Filled star */
+.star.on {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f4b400'>\
+<path d='M12 17.3l6.18 3.7-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/>\
+</svg>");
+}
+
+/* Empty star */
+.star.off {
+  background-image: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0e0e0'>\
+<path d='M12 17.3l6.18 3.7-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/>\
+</svg>");
+  opacity: 0.7;
+}
+
+/* BADGE – LESS BUBBLY */
+.rec {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: rgba(255,255,255,.10);
 }
 
 /* GRID */
