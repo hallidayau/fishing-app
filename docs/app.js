@@ -1,8 +1,10 @@
 function stars(score) {
-  const s = Math.max(1, Math.min(5, Number(score) || 1));
-  const filled = "⭐".repeat(s);
-  const empty = "☆".repeat(5 - s);
-  return `${filled}<span class="empty">${empty}</span>`;
+  const s = Math.max(0, Math.min(5, Number(score) || 0));
+  let html = "";
+  for (let i = 1; i <= 5; i++) {
+    html += `<span class="star ${i <= s ? "on" : "off"}"></span>`;
+  }
+  return html;
 }
 
 function fmt(v, suffix = "", fallback = "—") {
