@@ -1,10 +1,79 @@
 [
-  { "id": "hawks_nest", "name": "Hawks Nest", "region": "Port Stephens", "lat": -32.663, "lon": 152.182 },
-  { "id": "bennetts", "name": "Bennetts Beach", "region": "Port Stephens", "lat": -32.722, "lon": 152.173 },
-  { "id": "stockton", "name": "Stockton Beach", "region": "Newcastle", "lat": -32.918, "lon": 151.792 },
-  { "id": "nobbys", "name": "Nobbys Beach", "region": "Newcastle", "lat": -32.928, "lon": 151.781 },
-  { "id": "swansea", "name": "Swansea Channel", "region": "Lake Macquarie", "lat": -33.088, "lon": 151.654 },
-  { "id": "lake_mac", "name": "Lake Macquarie", "region": "Lake Macquarie", "lat": -33.070, "lon": 151.600 },
-  { "id": "norah", "name": "Norah Head", "region": "Central Coast", "lat": -33.281, "lon": 151.566 },
-  { "id": "avoca", "name": "Avoca Beach", "region": "Central Coast", "lat": -33.469, "lon": 151.435 }
+  {
+    "id": "hawks_nest",
+    "name": "Hawks Nest",
+    "region": "Port Stephens",
+    "lat": -32.673,
+    "lon": 152.194
+  },
+  {
+    "id": "fingal_bay",
+    "name": "Fingal Bay",
+    "region": "Port Stephens",
+    "lat": -32.739,
+    "lon": 152.203
+  },
+  {
+    "id": "nelson_bay",
+    "name": "Nelson Bay",
+    "region": "Port Stephens",
+    "lat": -32.725,
+    "lon": 152.194
+  },
+  {
+    "id": "newcastle_beach",
+    "name": "Newcastle Beach",
+    "region": "Newcastle",
+    "lat": -32.933,
+    "lon": 151.802
+  },
+  {
+    "id": "merewether",
+    "name": "Merewether",
+    "region": "Newcastle",
+    "lat": -32.947,
+    "lon": 151.788
+  },
+  {
+    "id": "swansea",
+    "name": "Swansea",
+    "region": "Lake Macquarie",
+    "lat": -33.093,
+    "lon": 151.664
+  },
+  {
+    "id": "caves_beach",
+    "name": "Caves Beach",
+    "region": "Lake Macquarie",
+    "lat": -33.108,
+    "lon": 151.660
+  },
+  {
+    "id": "redhead",
+    "name": "Redhead",
+    "region": "Lake Macquarie",
+    "lat": -33.020,
+    "lon": 151.724
+  },
+  {
+    "id": "terrigerl",
+    "name": "Terrigal",
+    "region": "Central Coast",
+    "lat": -33.449,
+    "lon": 151.459
+  },
+  {
+    "id": "avoca",
+    "name": "Avoca Beach",
+    "region": "Central Coast",
+    "lat": -33.468,
+    "lon": 151.438
+  },
+  {
+    "id": "the_entrance",
+    "name": "The Entrance",
+    "region": "Central Coast",
+    "lat": -33.343,
+    "lon": 151.513
+  }
 ]
