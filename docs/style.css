@@ -231,6 +231,23 @@ select{
   gap:10px;
 }
 
+/* SWELL LEGEND */
+.swellLegend {
+  margin-top:4px;
+  font-size:11px;
+  opacity:.7;
+}
+
+.swellLegend .amber {
+  color:#ffc107;
+  font-weight:600;
+}
+
+.swellLegend .red {
+  color:#f44336;
+  font-weight:600;
+}
+
 /* FOOTER */
 .foot{ font-size:12px; opacity:.6; text-align:center; }
 
