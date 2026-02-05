@@ -200,6 +200,24 @@ select{
 
 /* DETAIL */
 .detail{ margin-top:14px; }
+/* SWELL INTENSITY TINTS */
+.box.swell-mid {
+  border-color: rgba(255,193,7,.6);
+  background: linear-gradient(
+    180deg,
+    rgba(255,193,7,.12),
+    rgba(255,193,7,.05)
+  );
+}
+
+.box.swell-high {
+  border-color: rgba(244,67,54,.7);
+  background: linear-gradient(
+    180deg,
+    rgba(244,67,54,.18),
+    rgba(244,67,54,.06)
+  );
+}
 .detailCard{
   background: rgba(255,255,255,.06);
   border:1px solid rgba(255,255,255,.12);
