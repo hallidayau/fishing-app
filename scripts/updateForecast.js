@@ -110,7 +110,14 @@ async function run() {
           max: today.wind.max
         },
         swell: { height: today.swell.max },
-        tide: { state: "Tides next step", next: "We’ll wire tide times + chart next" }
+        tide: { function tideHeuristic(localIsoDate) {
+  // Very simple: alternates run-in/run-out daily (approximation)
+  // This is NOT real tide data; it’s a placeholder that still helps planning.
+  const day = Number(localIsoDate.slice(8, 10));
+  const state = (day % 2 === 0) ? "Run-in (approx)" : "Run-out (approx)";
+  return state;
+}
+ }
       },
       daily
     };
