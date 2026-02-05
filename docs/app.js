@@ -1,3 +1,11 @@
+window.onerror = function (msg, src, line, col, err) {
+  document.body.innerHTML =
+    "<pre style='color:white;padding:20px'>" +
+    "JS ERROR:\\n" +
+    msg + "\\n\\nLine: " + line +
+    "</pre>";
+};
+
 function stars(score) {
   const s = Math.max(0, Math.min(5, Number(score) || 0));
   let html = "";
