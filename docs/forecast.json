@@ -2,7 +2,7 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -11,9 +11,9 @@
         "Dusk"
       ],
       "species": [
-        "Bream",
-        "Whiting",
-        "Squid"
+        "Tailor",
+        "Flathead",
+        "Bream"
       ],
       "wind": {
         "speed": 10,
@@ -25,8 +25,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -42,11 +42,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -54,37 +54,37 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
+          "max": 17,
           "direction": "NE",
-          "degrees": 61
+          "degrees": 65
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 5,
-        "recommendation": "GO",
+        "score": 2,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 5,
-          "direction": "SW",
-          "degrees": 212
+          "max": 20,
+          "direction": "W",
+          "degrees": 278
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -92,18 +92,18 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 12,
           "direction": "E",
-          "degrees": 72
+          "degrees": 78
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead"
         ]
       },
       {
@@ -111,15 +111,15 @@
         "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 12,
-          "direction": "NE",
-          "degrees": 51
+          "max": 10,
+          "direction": "W",
+          "degrees": 282
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -131,17 +131,17 @@
         "recommendation": "MAYBE",
         "wind": {
           "max": 15,
-          "direction": "SE",
-          "degrees": 144
+          "direction": "S",
+          "degrees": 159
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -156,11 +156,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 95,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       }
     ]
@@ -168,7 +168,7 @@
   "bennetts": {
     "name": "Bennetts Beach",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 2,
       "recommendation": "DON'T GO",
@@ -177,9 +177,9 @@
         "Dusk"
       ],
       "species": [
-        "Bream",
+        "Tailor",
         "Flathead",
-        "Luderick"
+        "Bream"
       ],
       "wind": {
         "speed": 19,
@@ -191,8 +191,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -208,11 +208,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       },
       {
@@ -220,37 +220,37 @@
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 21,
-          "direction": "NE",
-          "degrees": 56
+          "max": 22,
+          "direction": "E",
+          "degrees": 69
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 1,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 10,
-          "direction": "NE",
-          "degrees": 56
+          "max": 28,
+          "direction": "NW",
+          "degrees": 305
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -258,37 +258,37 @@
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "NE",
-          "degrees": 57
+          "degrees": 58
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       },
       {
         "date": "2026-02-09",
-        "score": 2,
-        "recommendation": "DON'T GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 23,
-          "direction": "NE",
-          "degrees": 30
+          "max": 18,
+          "direction": "N",
+          "degrees": 353
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Bream",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       },
       {
@@ -296,18 +296,18 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 14,
-          "direction": "SE",
-          "degrees": 147
+          "max": 13,
+          "direction": "S",
+          "degrees": 198
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -322,11 +322,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 81,
-        "species": [
-          "Bream",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       }
     ]
@@ -334,10 +334,10 @@
   "stockton": {
     "name": "Stockton Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
-      "score": 4,
-      "recommendation": "GO",
+      "score": 3,
+      "recommendation": "MAYBE",
       "bestTimes": [
         "Dawn",
         "Dusk"
@@ -357,25 +357,25 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
       {
         "date": "2026-02-05",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
           "max": 12,
           "direction": "NE",
-          "degrees": 52
+          "degrees": 55
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -387,36 +387,36 @@
         "recommendation": "MAYBE",
         "wind": {
           "max": 18,
-          "direction": "SE",
-          "degrees": 154
+          "direction": "S",
+          "degrees": 174
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "NW",
-          "degrees": 299
+          "max": 17,
+          "direction": "W",
+          "degrees": 287
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -426,13 +426,13 @@
         "wind": {
           "max": 11,
           "direction": "E",
-          "degrees": 88
+          "degrees": 76
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -440,20 +440,20 @@
       },
       {
         "date": "2026-02-09",
-        "score": 5,
+        "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 8,
-          "direction": "NE",
-          "degrees": 61
+          "max": 9,
+          "direction": "NW",
+          "degrees": 324
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       },
@@ -464,16 +464,16 @@
         "wind": {
           "max": 14,
           "direction": "SE",
-          "degrees": 137
+          "degrees": 139
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -488,8 +488,8 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 63,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -500,10 +500,10 @@
   "nobbys": {
     "name": "Nobbys Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
-      "score": 4,
-      "recommendation": "GO",
+      "score": 3,
+      "recommendation": "MAYBE",
       "bestTimes": [
         "Dawn",
         "Dusk"
@@ -523,25 +523,25 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
       {
         "date": "2026-02-05",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
           "max": 12,
           "direction": "NE",
-          "degrees": 52
+          "degrees": 55
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -553,36 +553,36 @@
         "recommendation": "MAYBE",
         "wind": {
           "max": 18,
-          "direction": "SE",
-          "degrees": 154
+          "direction": "S",
+          "degrees": 174
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "NW",
-          "degrees": 299
+          "max": 17,
+          "direction": "W",
+          "degrees": 287
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -592,13 +592,13 @@
         "wind": {
           "max": 11,
           "direction": "E",
-          "degrees": 88
+          "degrees": 76
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -606,20 +606,20 @@
       },
       {
         "date": "2026-02-09",
-        "score": 5,
+        "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 8,
-          "direction": "NE",
-          "degrees": 61
+          "max": 9,
+          "direction": "NW",
+          "degrees": 324
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       },
@@ -630,16 +630,16 @@
         "wind": {
           "max": 14,
           "direction": "SE",
-          "degrees": 137
+          "degrees": 139
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -654,8 +654,8 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 63,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -666,7 +666,7 @@
   "swansea": {
     "name": "Swansea Channel",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -675,9 +675,9 @@
         "Dusk"
       ],
       "species": [
-        "Bream",
-        "Whiting",
-        "Squid"
+        "Tailor",
+        "Flathead",
+        "Bream"
       ],
       "wind": {
         "speed": 7,
@@ -689,8 +689,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -701,16 +701,16 @@
         "wind": {
           "max": 16,
           "direction": "NE",
-          "degrees": 47
+          "degrees": 50
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 2,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -718,56 +718,56 @@
         "score": 2,
         "recommendation": "DON'T GO",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "S",
-          "degrees": 171
+          "degrees": 179
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Flathead",
-          "Luderick"
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 13,
-          "direction": "NW",
-          "degrees": 316
+          "max": 20,
+          "direction": "W",
+          "degrees": 288
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-08",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "GO",
         "wind": {
-          "max": 13,
-          "direction": "E",
-          "degrees": 69
+          "max": 11,
+          "direction": "NE",
+          "degrees": 59
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead"
         ]
       },
       {
@@ -776,14 +776,14 @@
         "recommendation": "GO",
         "wind": {
           "max": 10,
-          "direction": "NE",
-          "degrees": 29
+          "direction": "N",
+          "degrees": 338
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -794,18 +794,18 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
+          "max": 14,
           "direction": "SE",
-          "degrees": 129
+          "degrees": 127
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -820,11 +820,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       }
     ]
@@ -832,7 +832,7 @@
   "lake_mac": {
     "name": "Lake Macquarie",
     "region": "Lake Macquarie",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 4,
       "recommendation": "GO",
@@ -855,8 +855,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -867,13 +867,13 @@
         "wind": {
           "max": 11,
           "direction": "N",
-          "degrees": 351
+          "degrees": 7
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
           "Bream",
           "Flathead"
@@ -881,21 +881,21 @@
       },
       {
         "date": "2026-02-06",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
-          "max": 11,
-          "direction": "NW",
-          "degrees": 300
+          "max": 14,
+          "direction": "E",
+          "degrees": 78
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -903,36 +903,36 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 12,
+          "max": 13,
           "direction": "NW",
-          "degrees": 316
+          "degrees": 301
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-08",
-        "score": 4,
+        "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 9,
-          "direction": "NE",
-          "degrees": 46
+          "max": 7,
+          "direction": "NW",
+          "degrees": 325
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       },
@@ -941,18 +941,18 @@
         "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 6,
-          "direction": "NE",
-          "degrees": 32
+          "max": 5,
+          "direction": "NW",
+          "degrees": 308
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
-          "Flathead"
+          "Flathead",
+          "Tailor"
         ]
       },
       {
@@ -962,16 +962,16 @@
         "wind": {
           "max": 13,
           "direction": "SE",
-          "degrees": 127
+          "degrees": 115
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -986,11 +986,11 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
-          "Flathead"
+          "Flathead",
+          "Tailor"
         ]
       }
     ]
@@ -998,7 +998,7 @@
   "norah": {
     "name": "Norah Head",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1007,9 +1007,9 @@
         "Dusk"
       ],
       "species": [
-        "Bream",
-        "Whiting",
-        "Squid"
+        "Tailor",
+        "Flathead",
+        "Bream"
       ],
       "wind": {
         "speed": 2,
@@ -1021,8 +1021,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -1033,16 +1033,16 @@
         "wind": {
           "max": 15,
           "direction": "E",
-          "degrees": 77
+          "degrees": 85
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -1050,55 +1050,55 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
-          "direction": "SE",
-          "degrees": 134
+          "max": 15,
+          "direction": "S",
+          "degrees": 165
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 2,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 10,
+          "max": 23,
           "direction": "NW",
-          "degrees": 318
+          "degrees": 309
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-08",
-        "score": 4,
+        "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 12,
-          "direction": "NE",
-          "degrees": 37
+          "max": 7,
+          "direction": "NW",
+          "degrees": 310
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       },
@@ -1107,18 +1107,18 @@
         "score": 5,
         "recommendation": "GO",
         "wind": {
-          "max": 8,
-          "direction": "NE",
-          "degrees": 50
+          "max": 5,
+          "direction": "NW",
+          "degrees": 307
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
-          "Flathead"
+          "Flathead",
+          "Tailor"
         ]
       },
       {
@@ -1128,16 +1128,16 @@
         "wind": {
           "max": 13,
           "direction": "SE",
-          "degrees": 143
+          "degrees": 135
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -1152,10 +1152,10 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       }
@@ -1164,7 +1164,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-05T06:58:33.621Z",
+    "updatedAt": "2026-02-05T10:56:10.568Z",
     "current": {
       "score": 3,
       "recommendation": "MAYBE",
@@ -1173,9 +1173,9 @@
         "Dusk"
       ],
       "species": [
-        "Bream",
-        "Whiting",
-        "Squid"
+        "Tailor",
+        "Flathead",
+        "Bream"
       ],
       "wind": {
         "speed": 3,
@@ -1187,8 +1187,8 @@
         "height": null
       },
       "tide": {
-        "state": "Tides next step",
-        "next": "We’ll wire tide times + chart next"
+        "state": "Run-out (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
       }
     },
     "daily": [
@@ -1199,16 +1199,16 @@
         "wind": {
           "max": 15,
           "direction": "E",
-          "degrees": 79
+          "degrees": 83
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -1218,54 +1218,54 @@
         "wind": {
           "max": 16,
           "direction": "SE",
-          "degrees": 137
+          "degrees": 144
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 3,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-07",
-        "score": 4,
-        "recommendation": "GO",
+        "score": 2,
+        "recommendation": "DON'T GO",
         "wind": {
-          "max": 11,
-          "direction": "N",
-          "degrees": 356
+          "max": 23,
+          "direction": "NW",
+          "degrees": 329
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Tailor",
-          "Bream",
-          "Flathead"
+          "Flathead",
+          "Bream"
         ]
       },
       {
         "date": "2026-02-08",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "GO",
         "wind": {
-          "max": 14,
-          "direction": "NE",
-          "degrees": 37
+          "max": 10,
+          "direction": "N",
+          "degrees": 349
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
           "Bream",
-          "Whiting",
-          "Squid"
+          "Flathead"
         ]
       },
       {
@@ -1273,17 +1273,17 @@
         "score": 4,
         "recommendation": "GO",
         "wind": {
-          "max": 9,
-          "direction": "NE",
-          "degrees": 40
+          "max": 8,
+          "direction": "NW",
+          "degrees": 313
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 80,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       },
@@ -1292,18 +1292,18 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 14,
+          "max": 15,
           "direction": "E",
-          "degrees": 94
+          "degrees": 103
         },
         "swell": {
           "max": null
         },
-        "weatherCode": 45,
-        "species": [
-          "Bream",
-          "Whiting",
-          "Squid"
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
         ]
       },
       {
@@ -1318,10 +1318,10 @@
         "swell": {
           "max": null
         },
-        "weatherCode": 61,
-        "species": [
-          "Tailor",
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
           "Bream",
+          "Tailor",
           "Flathead"
         ]
       }
