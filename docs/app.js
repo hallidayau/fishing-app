@@ -105,12 +105,16 @@ fetch("forecast.json", { cache: "no-store" })
           <div class="box ${swellClass}">
             <div class="label">Swell</div>
             <div class="iconRow">
-              <div class="swellIcon">🌊</div>
-              <div>
-                <div class="value">${fmt(swell.height," m")} ${degToCompass(swell.direction)}</div>
-                <div class="tiny">Daily max</div>
-              </div>
-            </div>
+  <div class="swellIcon">🌊</div>
+  <div>
+    <div class="value">${fmt(swell.height," m")} ${degToCompass(swell.direction)}</div>
+    <div class="tiny">Daily max</div>
+    <div class="swellLegend">
+      <span class="amber">Amber</span> = choppy ·
+      <span class="red">Red</span> = rough
+    </div>
+  </div>
+</div>
           </div>
 
           <div class="box">
