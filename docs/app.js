@@ -72,9 +72,10 @@ fetch("forecast.json", { cache: "no-store" })
           </div>
 
           <div class="box">
-            <div class="label">Tide</div>
-            <div class="value">${c.tide.state}</div>
-            <div class="tiny">${c.tide.next}</div>
+            <<div class="label">Tide</div>
+<div class="value">${c.tide.state}</div>
+<div class="tiny">${c.tide.next}</div>
+next}</div>
           </div>
         </div>
 
