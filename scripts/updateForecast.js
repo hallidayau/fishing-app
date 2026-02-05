@@ -6,7 +6,7 @@ function degToCompass(deg) {
   return dirs[Math.round(deg / 45) % 8];
 }
 
-/* Overall conditions score (simple, readable) */
+// Overall 1–5 score (simple + explainable)
 function scoreFromWind(windKmh) {
   if (windKmh < 8) return 5;
   if (windKmh < 12) return 4;
@@ -15,32 +15,36 @@ function scoreFromWind(windKmh) {
   return 1;
 }
 
-/* Approximate tide guidance – NOT real tides */
+function recommendation(score) {
+  return score >= 4 ? "GO" : score === 3 ? "MAYBE" : "DON'T GO";
+}
+
+// Approx tide guidance (NO API). Clearly labelled in UI.
 function tideHeuristic(dateIso) {
   const day = Number(dateIso.slice(8, 10));
   return day % 2 === 0 ? "Run-in (approx)" : "Run-out (approx)";
 }
 
-/* Species logic – this is the value */
-function speciesScores({ score, wind, swell }) {
-  const clamp = n => Math.max(0, Math.min(100, n));
-  const w = wind ?? 15;
-  const s = swell ?? 1;
+// Species ranking based on wind/swell/overall score (no extra APIs)
+function speciesTop3({ score, windMax, swellMax }) {
+  const clamp = (n) => Math.max(0, Math.min(100, n));
+  const w = windMax ?? 15;
+  const s = swellMax ?? 1;
 
-  const scores = [
-    ["Bream",      clamp(70 + score*6 - w*1.2)],
-    ["Flathead",  clamp(65 + score*6 - w*0.8)],
-    ["Whiting",   clamp(60 + score*5 - w*1.0)],
-    ["Tailor",    clamp(45 + score*7 + s*10)],
-    ["Jewfish",   clamp(40 + score*6 + s*8 - w*0.6)],
-    ["Squid",     clamp(50 + score*6 - w*1.4)]
+  const list = [
+    ["Bream",     clamp(70 + score * 6 - w * 1.2)],
+    ["Flathead",  clamp(65 + score * 6 - w * 0.8)],
+    ["Whiting",   clamp(60 + score * 5 - w * 1.0)],
+    ["Tailor",    clamp(45 + score * 7 + s * 10)],
+    ["Jewfish",   clamp(40 + score * 6 + s * 8 - w * 0.6)],
+    ["Squid",     clamp(50 + score * 6 - w * 1.4)]
   ];
 
-  scores.sort((a,b) => b[1]-a[1]);
-  return scores.slice(0,3).map(s => s[0]);
+  list.sort((a, b) => b[1] - a[1]);
+  return list.slice(0, 3).map((x) => x[0]);
 }
 
-async function fetchWeather(lat, lon) {
+async function fetchOpenMeteo(lat, lon) {
   const url =
     `https://api.open-meteo.com/v1/forecast` +
     `?latitude=${lat}&longitude=${lon}` +
@@ -49,44 +53,62 @@ async function fetchWeather(lat, lon) {
     `&timezone=Australia/Sydney`;
 
   const res = await fetch(url);
-  if (!res.ok) throw new Error("Weather fetch failed");
+  if (!res.ok) throw new Error(`Open-Meteo failed ${res.status}`);
   return res.json();
 }
 
 async function run() {
-  const out = {};
   const updatedAt = new Date().toISOString();
+  const out = {};
 
   for (const loc of locations) {
-    const data = await fetchWeather(loc.lat, loc.lon);
+    const data = await fetchOpenMeteo(loc.lat, loc.lon);
 
-    const nowWind = data.hourly.wind_speed_10m[0];
-    const nowDeg  = data.hourly.wind_direction_10m[0];
+    const windNow = data.hourly?.wind_speed_10m?.[0];
+    const windDegNow = data.hourly?.wind_direction_10m?.[0];
 
-    const days = data.daily.time.slice(0,7);
+    if (windNow == null || windDegNow == null) {
+      throw new Error(`Missing hourly wind for ${loc.id}`);
+    }
+
+    const days = (data.daily?.time ?? []).slice(0, 7);
+    const windMax = (data.daily?.wind_speed_10m_max ?? []).slice(0, 7);
+    const windDom = (data.daily?.wind_direction_10m_dominant ?? []).slice(0, 7);
+    const swellMax = (data.daily?.wave_height_max ?? []).slice(0, 7);
 
     const daily = days.map((date, i) => {
-      const w = data.daily.wind_speed_10m_max[i];
-      const d = data.daily.wind_direction_10m_dominant[i];
-      const s = data.daily.wave_height_max[i] ?? null;
-      const sc = scoreFromWind(w);
+      const w = windMax[i] ?? null;
+      const d = windDom[i] ?? 0;
+      const s = swellMax[i] ?? null;
+
+      const sc = w == null ? 3 : scoreFromWind(w);
 
       return {
         date,
         score: sc,
-        recommendation: sc >= 4 ? "GO" : sc === 3 ? "MAYBE" : "DON'T GO",
+        recommendation: recommendation(sc),
         wind: {
-          max: Math.round(w),
+          max: w == null ? null : Math.round(w),
           direction: degToCompass(d),
           degrees: Math.round(d)
         },
-        swell: { max: s },
+        swell: {
+          max: s == null ? null : Number(s)
+        },
         tideState: tideHeuristic(date),
-        speciesTop: speciesScores({ score: sc, wind: w, swell: s })
+        speciesTop: speciesTop3({ score: sc, windMax: w, swellMax: s })
       };
     });
 
-    const today = daily[0];
+    const today = daily[0] ?? {
+      date: updatedAt.slice(0, 10),
+      score: scoreFromWind(windNow),
+      recommendation: recommendation(scoreFromWind(windNow)),
+      wind: { max: Math.round(windNow), direction: degToCompass(windDegNow), degrees: Math.round(windDegNow) },
+      swell: { max: null },
+      tideState: tideHeuristic(updatedAt.slice(0, 10)),
+      speciesTop: speciesTop3({ score: scoreFromWind(windNow), windMax: windNow, swellMax: null })
+    };
 
     out[loc.id] = {
       name: loc.name,
@@ -98,9 +120,9 @@ async function run() {
         bestTimes: ["Dawn", "Dusk"],
         species: today.speciesTop,
         wind: {
-          speed: Math.round(nowWind),
-          direction: degToCompass(nowDeg),
-          degrees: Math.round(nowDeg),
+          speed: Math.round(windNow),
+          direction: degToCompass(windDegNow),
+          degrees: Math.round(windDegNow),
           max: today.wind.max
         },
         swell: { height: today.swell.max },
@@ -116,7 +138,7 @@ async function run() {
   fs.writeFileSync("docs/forecast.json", JSON.stringify(out, null, 2));
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
