@@ -16,7 +16,9 @@ function scoreFromWind(windKmh) {
 }
 
 function recommendation(score) {
-  return score >= 4 ? "GO" : score === 3 ? "MAYBE" : "DON'T GO";
+  if (score >= 4) return "SEND IT";
+  if (score === 3) return "MAYBE";
+  return "GO TO PUB";
 }
 
 // Approx tide guidance (NO API). Clearly labelled in UI.
