@@ -268,3 +268,7 @@ select{
   .dayRight{ justify-content:flex-start; }
   .detailGrid{ grid-template-columns: 1fr; }
 }
+.dayMid .tiny {
+  line-height: 1.35;
+  opacity: 0.8;
+}
