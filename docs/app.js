@@ -7,6 +7,30 @@ function stars(score) {
   return html;
 }
 
+function dayNarrative(day) {
+  const wind = day.windMax;
+  const dir = day.windDir;
+  const score = day.score;
+  const rec = day.rec;
+
+  let windDesc = "Light winds";
+  if (wind >= 10 && wind < 15) windDesc = "Moderate winds";
+  if (wind >= 15 && wind < 20) windDesc = "Fresh winds";
+  if (wind >= 20) windDesc = "Strong winds";
+
+  let bite;
+  if (score >= 4) bite = "good bite periods likely";
+  else if (score === 3) bite = "patchy bite expected";
+  else bite = "poor bite conditions";
+
+  let advice;
+  if (rec === "SEND IT") advice = "Worth fishing if you time it right.";
+  else if (rec === "MAYBE") advice = "Fish early or late if you go.";
+  else advice = "Better off staying dry.";
+
+  return `${windDesc} from the ${dir} with ${bite}. ${advice}`;
+}
+
 function fmt(v, suffix = "", fallback = "—") {
   return v == null ? fallback : `${v}${suffix}`;
 }
