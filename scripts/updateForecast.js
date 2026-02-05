@@ -55,6 +55,7 @@ async function run() {
     }
 
     // 7-day block from daily arrays
+    tideState: tideHeuristic(date),
     const days = data.daily?.time?.slice(0, 7) ?? [];
     const windMax = data.daily?.wind_speed_10m_max?.slice(0, 7) ?? [];
     const windDirDom = data.daily?.wind_direction_10m_dominant?.slice(0, 7) ?? [];
@@ -91,14 +92,29 @@ async function run() {
       wind: { max: Math.round(windNow), direction: degToCompass(windDegNow), degrees: Math.round(windDegNow) },
       swell: { max: null },
       weatherCode: null,
-      species: topTargets(scoreFromWind(windNow))
+      const sp = speciesScores({ score: sc, windMax: w, swellMax: s });
+
+return {
+  date,
+  score: sc,
+  recommendation: recommendation(sc),
+  wind: { max: w == null ? null : Math.round(w), direction: degToCompass(d), degrees: Math.round(d) },
+  swell: { max: s == null ? null : Number(s) },
+  tideState: tideHeuristic(date),
+  speciesTop: sp.top,
+  speciesRanked: sp.ranked
+};
     };
 
     out[loc.id] = {
       name: loc.name,
       region: loc.region ?? "",
       updatedAt,
-      current: {
+      current: tide: {
+      species: today.speciesTop ?? ["Bream", "Flathead", "Whiting"],
+  state: tideHeuristic(today.date),
+  next: "Best bite: dawn/dusk + 2hrs around tide change (approx)"
+}
         score: today.score,
         recommendation: today.recommendation,
         bestTimes: ["Dawn", "Dusk"],   // we can refine later with tide + light
@@ -130,3 +146,33 @@ run().catch(err => {
   console.error(err);
   process.exit(1);
 });
+function speciesScores({ score, windMax, swellMax }) {
+  // 0–100 simple suitability
+  const wind = windMax ?? 15;
+  const swell = swellMax ?? 1.0;
+
+  const clamp = (n) => Math.max(0, Math.min(100, n));
+
+  // heuristics
+  const bream = clamp(60 + (score * 6) - (wind * 1.2));          // likes lighter winds
+  const tailor = clamp(45 + (score * 7) + (swell * 10));         // likes swell + activity
+  const jew = clamp(35 + (score * 5) + (swell * 8) - (wind * 0.8)); // likes swell, not too windy
+  const whiting = clamp(55 + (score * 5) - (wind * 1.0));        // similar to bream
+  const flathead = clamp(50 + (score * 6) - (wind * 0.6));       // tolerates a bit more wind
+  const squid = clamp(40 + (score * 6) - (wind * 1.3));          // hates wind/chop
+
+  const list = [
+    ["Bream", bream],
+    ["Tailor", tailor],
+    ["Jewfish", jew],
+    ["Whiting", whiting],
+    ["Flathead", flathead],
+    ["Squid", squid]
+  ];
+
+  list.sort((a,b) => b[1]-a[1]);
+  return {
+    ranked: list,
+    top: list.slice(0,3).map(x => x[0])
+  };
+}
