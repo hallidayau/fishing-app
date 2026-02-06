@@ -2,42 +2,45 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "score": 3,
-    "recommendation": "MAYBE",
-    "wind": {
-      "speed": 15,
-      "direction": "NE",
-      "max": 20
-    },
-    "swell": {
-      "height": 1.2
-    },
-    "tide": {
-      "state": "Run-in",
-      "next": "Approx morning"
-    },
-    "bestTimes": ["Dawn", "Dusk"],
-    "species": ["Bream", "Flathead", "Whiting"],
-    "days": {
-      "fri": {
-        "label": "Fri",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": { "max": 10, "direction": "E" }
+    "updatedAt": "2026-02-05T18:47:13.667Z",
+    "current": {
+      "score": 2,
+      "recommendation": "GO TO PUB",
+      "bestTimes": ["Dawn", "Dusk"],
+      "wind": {
+        "speed": 18,
+        "direction": "NW",
+        "degrees": 315,
+        "max": 25
       },
-      "sat": {
-        "label": "Sat",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": { "max": 16, "direction": "NE" }
+      "swell": {
+        "height": 1.8,
+        "direction": 110
       },
-      "sun": {
-        "label": "Sun",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": { "max": 24, "direction": "NW" }
+      "tide": {
+        "state": "Run-out (approx)",
+        "next": "Auto"
       }
     },
-    "updated": "2026-02-06 14:00"
+    "daily": [
+      {
+        "date": "2026-02-06",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": { "max": 16, "direction": "NE", "degrees": 45 },
+        "swell": { "max": 1.5 },
+        "tideState": "Run-in (approx)",
+        "speciesTop": ["Bream", "Flathead", "Whiting"]
+      },
+      {
+        "date": "2026-02-07",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": { "max": 22, "direction": "NW", "degrees": 315 },
+        "swell": { "max": 2.2 },
+        "tideState": "Run-out (approx)",
+        "speciesTop": ["Bream", "Tailor"]
+      }
+    ]
   }
 }
