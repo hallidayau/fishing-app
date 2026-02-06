@@ -1,4 +1,9 @@
-{
+{"hawks-nest": {
+  "name": "Hawks Nest",
+  "score": 3,
+  "recommendation": "MAYBE",
+  "wind": { ... }
+}
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
