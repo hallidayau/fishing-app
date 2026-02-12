@@ -2,9 +2,9 @@
   "hawks_nest": {
     "name": "Hawks Nest",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
-      "score": 1,
+      "score": 2,
       "recommendation": "GO TO PUB",
       "bestTimes": [
         "Dawn",
@@ -19,7 +19,7 @@
         "speed": 9,
         "direction": "NE",
         "degrees": 33,
-        "max": 29
+        "max": 23
       },
       "swell": {
         "height": null
@@ -32,10 +32,10 @@
     "daily": [
       {
         "date": "2026-02-12",
-        "score": 1,
+        "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 29,
+          "max": 23,
           "direction": "S",
           "degrees": 173
         },
@@ -54,9 +54,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 15,
           "direction": "SE",
-          "degrees": 130
+          "degrees": 132
         },
         "swell": {
           "max": null
@@ -73,9 +73,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
+          "max": 16,
           "direction": "E",
-          "degrees": 95
+          "degrees": 102
         },
         "swell": {
           "max": null
@@ -89,12 +89,12 @@
       },
       {
         "date": "2026-02-15",
-        "score": 4,
-        "recommendation": "SEND IT",
+        "score": 3,
+        "recommendation": "MAYBE",
         "wind": {
           "max": 12,
           "direction": "E",
-          "degrees": 70
+          "degrees": 86
         },
         "swell": {
           "max": null
@@ -108,12 +108,12 @@
       },
       {
         "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "SEND IT",
         "wind": {
-          "max": 15,
-          "direction": "E",
-          "degrees": 112
+          "max": 11,
+          "direction": "SE",
+          "degrees": 140
         },
         "swell": {
           "max": null
@@ -121,8 +121,8 @@
         "tideState": "Run-in (approx)",
         "speciesTop": [
           "Tailor",
-          "Flathead",
-          "Bream"
+          "Bream",
+          "Flathead"
         ]
       },
       {
@@ -130,9 +130,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "NE",
-          "degrees": 57
+          "degrees": 56
         },
         "swell": {
           "max": null
@@ -149,9 +149,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 17,
+          "max": 16,
           "direction": "N",
-          "degrees": 350
+          "degrees": 3
         },
         "swell": {
           "max": null
@@ -168,7 +168,7 @@
   "fingal_bay": {
     "name": "Fingal Bay",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 1,
       "recommendation": "GO TO PUB",
@@ -185,7 +185,7 @@
         "speed": 13,
         "direction": "NE",
         "degrees": 30,
-        "max": 34
+        "max": 28
       },
       "swell": {
         "height": null
@@ -201,9 +201,9 @@
         "score": 1,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 34,
+          "max": 28,
           "direction": "S",
-          "degrees": 172
+          "degrees": 173
         },
         "swell": {
           "max": null
@@ -220,9 +220,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 21,
+          "max": 20,
           "direction": "SE",
-          "degrees": 131
+          "degrees": 136
         },
         "swell": {
           "max": null
@@ -239,9 +239,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "E",
-          "degrees": 95
+          "degrees": 100
         },
         "swell": {
           "max": null
@@ -258,9 +258,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 17,
+          "max": 15,
           "direction": "E",
-          "degrees": 70
+          "degrees": 81
         },
         "swell": {
           "max": null
@@ -274,12 +274,12 @@
       },
       {
         "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "SEND IT",
         "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 106
+          "max": 10,
+          "direction": "SE",
+          "degrees": 130
         },
         "swell": {
           "max": null
@@ -287,8 +287,8 @@
         "tideState": "Run-in (approx)",
         "speciesTop": [
           "Tailor",
-          "Flathead",
-          "Bream"
+          "Bream",
+          "Flathead"
         ]
       },
       {
@@ -296,9 +296,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 23,
+          "max": 22,
           "direction": "NE",
-          "degrees": 54
+          "degrees": 57
         },
         "swell": {
           "max": null
@@ -312,12 +312,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 17,
+          "max": 18,
           "direction": "N",
-          "degrees": 357
+          "degrees": 2
         },
         "swell": {
           "max": null
@@ -334,7 +334,7 @@
   "nelson_bay": {
     "name": "Nelson Bay",
     "region": "Port Stephens",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 1,
       "recommendation": "GO TO PUB",
@@ -351,7 +351,7 @@
         "speed": 13,
         "direction": "NE",
         "degrees": 30,
-        "max": 34
+        "max": 28
       },
       "swell": {
         "height": null
@@ -367,9 +367,9 @@
         "score": 1,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 34,
+          "max": 28,
           "direction": "S",
-          "degrees": 172
+          "degrees": 173
         },
         "swell": {
           "max": null
@@ -386,9 +386,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 21,
+          "max": 20,
           "direction": "SE",
-          "degrees": 131
+          "degrees": 136
         },
         "swell": {
           "max": null
@@ -405,9 +405,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 20,
+          "max": 19,
           "direction": "E",
-          "degrees": 95
+          "degrees": 100
         },
         "swell": {
           "max": null
@@ -424,9 +424,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 17,
+          "max": 15,
           "direction": "E",
-          "degrees": 70
+          "degrees": 81
         },
         "swell": {
           "max": null
@@ -440,12 +440,12 @@
       },
       {
         "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "SEND IT",
         "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 106
+          "max": 10,
+          "direction": "SE",
+          "degrees": 130
         },
         "swell": {
           "max": null
@@ -453,8 +453,8 @@
         "tideState": "Run-in (approx)",
         "speciesTop": [
           "Tailor",
-          "Flathead",
-          "Bream"
+          "Bream",
+          "Flathead"
         ]
       },
       {
@@ -462,9 +462,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 23,
+          "max": 22,
           "direction": "NE",
-          "degrees": 54
+          "degrees": 57
         },
         "swell": {
           "max": null
@@ -478,12 +478,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 17,
+          "max": 18,
           "direction": "N",
-          "degrees": 357
+          "degrees": 2
         },
         "swell": {
           "max": null
@@ -500,7 +500,7 @@
   "newcastle_beach": {
     "name": "Newcastle Beach",
     "region": "Newcastle",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 2,
       "recommendation": "GO TO PUB",
@@ -535,7 +535,7 @@
         "wind": {
           "max": 22,
           "direction": "S",
-          "degrees": 178
+          "degrees": 175
         },
         "swell": {
           "max": null
@@ -552,9 +552,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 14,
           "direction": "SE",
-          "degrees": 134
+          "degrees": 138
         },
         "swell": {
           "max": null
@@ -571,7 +571,7 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
+          "max": 16,
           "direction": "E",
           "degrees": 103
         },
@@ -590,9 +590,9 @@
         "score": 4,
         "recommendation": "SEND IT",
         "wind": {
-          "max": 9,
+          "max": 12,
           "direction": "E",
-          "degrees": 101
+          "degrees": 102
         },
         "swell": {
           "max": null
@@ -606,12 +606,12 @@
       },
       {
         "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 4,
+        "recommendation": "SEND IT",
         "wind": {
-          "max": 14,
+          "max": 12,
           "direction": "SE",
-          "degrees": 131
+          "degrees": 142
         },
         "swell": {
           "max": null
@@ -619,8 +619,8 @@
         "tideState": "Run-in (approx)",
         "speciesTop": [
           "Tailor",
-          "Flathead",
-          "Bream"
+          "Bream",
+          "Flathead"
         ]
       },
       {
@@ -628,9 +628,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 18,
+          "max": 16,
           "direction": "E",
-          "degrees": 75
+          "degrees": 78
         },
         "swell": {
           "max": null
@@ -644,12 +644,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 16,
-          "direction": "N",
-          "degrees": 359
+          "max": 20,
+          "direction": "NW",
+          "degrees": 333
         },
         "swell": {
           "max": null
@@ -666,7 +666,7 @@
   "merewether": {
     "name": "Merewether",
     "region": "Newcastle",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 1,
       "recommendation": "GO TO PUB",
@@ -683,670 +683,6 @@
         "speed": 7,
         "direction": "N",
         "degrees": 357,
-        "max": 26
-      },
-      "swell": {
-        "height": null
-      },
-      "tide": {
-        "state": "Run-in (approx)",
-        "next": "Best bite ±2 hrs around tide change (approx)"
-      }
-    },
-    "daily": [
-      {
-        "date": "2026-02-12",
-        "score": 1,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 26,
-          "direction": "S",
-          "degrees": 178
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-13",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 19,
-          "direction": "SE",
-          "degrees": 138
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-14",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 103
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-15",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": {
-          "max": 10,
-          "direction": "E",
-          "degrees": 99
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "SE",
-          "degrees": 129
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-17",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 58
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 14,
-          "direction": "N",
-          "degrees": 360
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      }
-    ]
-  },
-  "swansea": {
-    "name": "Swansea",
-    "region": "Lake Macquarie",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
-    "current": {
-      "score": 1,
-      "recommendation": "GO TO PUB",
-      "bestTimes": [
-        "Dawn",
-        "Dusk"
-      ],
-      "species": [
-        "Tailor",
-        "Flathead",
-        "Bream"
-      ],
-      "wind": {
-        "speed": 7,
-        "direction": "N",
-        "degrees": 357,
-        "max": 26
-      },
-      "swell": {
-        "height": null
-      },
-      "tide": {
-        "state": "Run-in (approx)",
-        "next": "Best bite ±2 hrs around tide change (approx)"
-      }
-    },
-    "daily": [
-      {
-        "date": "2026-02-12",
-        "score": 1,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 26,
-          "direction": "S",
-          "degrees": 178
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-13",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 19,
-          "direction": "SE",
-          "degrees": 138
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-14",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 103
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-15",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": {
-          "max": 10,
-          "direction": "E",
-          "degrees": 99
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "SE",
-          "degrees": 129
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-17",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 58
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 14,
-          "direction": "N",
-          "degrees": 360
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      }
-    ]
-  },
-  "caves_beach": {
-    "name": "Caves Beach",
-    "region": "Lake Macquarie",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
-    "current": {
-      "score": 1,
-      "recommendation": "GO TO PUB",
-      "bestTimes": [
-        "Dawn",
-        "Dusk"
-      ],
-      "species": [
-        "Tailor",
-        "Flathead",
-        "Bream"
-      ],
-      "wind": {
-        "speed": 7,
-        "direction": "N",
-        "degrees": 357,
-        "max": 26
-      },
-      "swell": {
-        "height": null
-      },
-      "tide": {
-        "state": "Run-in (approx)",
-        "next": "Best bite ±2 hrs around tide change (approx)"
-      }
-    },
-    "daily": [
-      {
-        "date": "2026-02-12",
-        "score": 1,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 26,
-          "direction": "S",
-          "degrees": 178
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-13",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 19,
-          "direction": "SE",
-          "degrees": 138
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-14",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 103
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-15",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": {
-          "max": 10,
-          "direction": "E",
-          "degrees": 99
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "SE",
-          "degrees": 129
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-17",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 58
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 14,
-          "direction": "N",
-          "degrees": 360
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      }
-    ]
-  },
-  "redhead": {
-    "name": "Redhead",
-    "region": "Lake Macquarie",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
-    "current": {
-      "score": 1,
-      "recommendation": "GO TO PUB",
-      "bestTimes": [
-        "Dawn",
-        "Dusk"
-      ],
-      "species": [
-        "Tailor",
-        "Flathead",
-        "Bream"
-      ],
-      "wind": {
-        "speed": 7,
-        "direction": "N",
-        "degrees": 357,
-        "max": 26
-      },
-      "swell": {
-        "height": null
-      },
-      "tide": {
-        "state": "Run-in (approx)",
-        "next": "Best bite ±2 hrs around tide change (approx)"
-      }
-    },
-    "daily": [
-      {
-        "date": "2026-02-12",
-        "score": 1,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 26,
-          "direction": "S",
-          "degrees": 178
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-13",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 19,
-          "direction": "SE",
-          "degrees": 138
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-14",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 17,
-          "direction": "E",
-          "degrees": 103
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-15",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": {
-          "max": 10,
-          "direction": "E",
-          "degrees": 99
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Bream",
-          "Flathead"
-        ]
-      },
-      {
-        "date": "2026-02-16",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 15,
-          "direction": "SE",
-          "degrees": 129
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-17",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": {
-          "max": 18,
-          "direction": "NE",
-          "degrees": 58
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-out (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      },
-      {
-        "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": {
-          "max": 14,
-          "direction": "N",
-          "degrees": 360
-        },
-        "swell": {
-          "max": null
-        },
-        "tideState": "Run-in (approx)",
-        "speciesTop": [
-          "Tailor",
-          "Flathead",
-          "Bream"
-        ]
-      }
-    ]
-  },
-  "terrigerl": {
-    "name": "Terrigal",
-    "region": "Central Coast",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
-    "current": {
-      "score": 1,
-      "recommendation": "GO TO PUB",
-      "bestTimes": [
-        "Dawn",
-        "Dusk"
-      ],
-      "species": [
-        "Tailor",
-        "Flathead",
-        "Bream"
-      ],
-      "wind": {
-        "speed": 4,
-        "direction": "NE",
-        "degrees": 24,
         "max": 27
       },
       "swell": {
@@ -1365,7 +701,7 @@
         "wind": {
           "max": 27,
           "direction": "S",
-          "degrees": 173
+          "degrees": 176
         },
         "swell": {
           "max": null
@@ -1384,7 +720,7 @@
         "wind": {
           "max": 17,
           "direction": "SE",
-          "degrees": 139
+          "degrees": 144
         },
         "swell": {
           "max": null
@@ -1398,12 +734,12 @@
       },
       {
         "date": "2026-02-14",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 16,
+          "max": 19,
           "direction": "E",
-          "degrees": 96
+          "degrees": 97
         },
         "swell": {
           "max": null
@@ -1420,9 +756,673 @@
         "score": 4,
         "recommendation": "SEND IT",
         "wind": {
-          "max": 10,
+          "max": 12,
           "direction": "E",
-          "degrees": 91
+          "degrees": 98
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "SE",
+          "degrees": 147
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-17",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "NE",
+          "degrees": 55
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-18",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 20,
+          "direction": "NW",
+          "degrees": 334
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      }
+    ]
+  },
+  "swansea": {
+    "name": "Swansea",
+    "region": "Lake Macquarie",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
+    "current": {
+      "score": 1,
+      "recommendation": "GO TO PUB",
+      "bestTimes": [
+        "Dawn",
+        "Dusk"
+      ],
+      "species": [
+        "Tailor",
+        "Flathead",
+        "Bream"
+      ],
+      "wind": {
+        "speed": 7,
+        "direction": "N",
+        "degrees": 357,
+        "max": 27
+      },
+      "swell": {
+        "height": null
+      },
+      "tide": {
+        "state": "Run-in (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-02-12",
+        "score": 1,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 27,
+          "direction": "S",
+          "degrees": 176
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-13",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "SE",
+          "degrees": 144
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-14",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 19,
+          "direction": "E",
+          "degrees": 97
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-15",
+        "score": 4,
+        "recommendation": "SEND IT",
+        "wind": {
+          "max": 12,
+          "direction": "E",
+          "degrees": 98
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "SE",
+          "degrees": 147
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-17",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "NE",
+          "degrees": 55
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-18",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 20,
+          "direction": "NW",
+          "degrees": 334
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      }
+    ]
+  },
+  "caves_beach": {
+    "name": "Caves Beach",
+    "region": "Lake Macquarie",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
+    "current": {
+      "score": 1,
+      "recommendation": "GO TO PUB",
+      "bestTimes": [
+        "Dawn",
+        "Dusk"
+      ],
+      "species": [
+        "Tailor",
+        "Flathead",
+        "Bream"
+      ],
+      "wind": {
+        "speed": 7,
+        "direction": "N",
+        "degrees": 357,
+        "max": 27
+      },
+      "swell": {
+        "height": null
+      },
+      "tide": {
+        "state": "Run-in (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-02-12",
+        "score": 1,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 27,
+          "direction": "S",
+          "degrees": 176
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-13",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "SE",
+          "degrees": 144
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-14",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 19,
+          "direction": "E",
+          "degrees": 97
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-15",
+        "score": 4,
+        "recommendation": "SEND IT",
+        "wind": {
+          "max": 12,
+          "direction": "E",
+          "degrees": 98
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "SE",
+          "degrees": 147
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-17",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "NE",
+          "degrees": 55
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-18",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 20,
+          "direction": "NW",
+          "degrees": 334
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      }
+    ]
+  },
+  "redhead": {
+    "name": "Redhead",
+    "region": "Lake Macquarie",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
+    "current": {
+      "score": 1,
+      "recommendation": "GO TO PUB",
+      "bestTimes": [
+        "Dawn",
+        "Dusk"
+      ],
+      "species": [
+        "Tailor",
+        "Flathead",
+        "Bream"
+      ],
+      "wind": {
+        "speed": 7,
+        "direction": "N",
+        "degrees": 357,
+        "max": 27
+      },
+      "swell": {
+        "height": null
+      },
+      "tide": {
+        "state": "Run-in (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-02-12",
+        "score": 1,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 27,
+          "direction": "S",
+          "degrees": 176
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-13",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "SE",
+          "degrees": 144
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-14",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 19,
+          "direction": "E",
+          "degrees": 97
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-15",
+        "score": 4,
+        "recommendation": "SEND IT",
+        "wind": {
+          "max": 12,
+          "direction": "E",
+          "degrees": 98
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Bream",
+          "Flathead"
+        ]
+      },
+      {
+        "date": "2026-02-16",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 14,
+          "direction": "SE",
+          "degrees": 147
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-17",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "NE",
+          "degrees": 55
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-18",
+        "score": 2,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 20,
+          "direction": "NW",
+          "degrees": 334
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      }
+    ]
+  },
+  "terrigerl": {
+    "name": "Terrigal",
+    "region": "Central Coast",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
+    "current": {
+      "score": 1,
+      "recommendation": "GO TO PUB",
+      "bestTimes": [
+        "Dawn",
+        "Dusk"
+      ],
+      "species": [
+        "Tailor",
+        "Flathead",
+        "Bream"
+      ],
+      "wind": {
+        "speed": 4,
+        "direction": "NE",
+        "degrees": 24,
+        "max": 25
+      },
+      "swell": {
+        "height": null
+      },
+      "tide": {
+        "state": "Run-in (approx)",
+        "next": "Best bite ±2 hrs around tide change (approx)"
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-02-12",
+        "score": 1,
+        "recommendation": "GO TO PUB",
+        "wind": {
+          "max": 25,
+          "direction": "S",
+          "degrees": 173
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-13",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 15,
+          "direction": "SE",
+          "degrees": 144
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-out (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-14",
+        "score": 3,
+        "recommendation": "MAYBE",
+        "wind": {
+          "max": 17,
+          "direction": "E",
+          "degrees": 99
+        },
+        "swell": {
+          "max": null
+        },
+        "tideState": "Run-in (approx)",
+        "speciesTop": [
+          "Tailor",
+          "Flathead",
+          "Bream"
+        ]
+      },
+      {
+        "date": "2026-02-15",
+        "score": 4,
+        "recommendation": "SEND IT",
+        "wind": {
+          "max": 11,
+          "direction": "E",
+          "degrees": 111
         },
         "swell": {
           "max": null
@@ -1441,7 +1441,7 @@
         "wind": {
           "max": 13,
           "direction": "SE",
-          "degrees": 122
+          "degrees": 147
         },
         "swell": {
           "max": null
@@ -1458,9 +1458,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 19,
+          "max": 18,
           "direction": "NE",
-          "degrees": 48
+          "degrees": 43
         },
         "swell": {
           "max": null
@@ -1474,12 +1474,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 13,
-          "direction": "N",
-          "degrees": 14
+          "max": 18,
+          "direction": "NW",
+          "degrees": 334
         },
         "swell": {
           "max": null
@@ -1496,7 +1496,7 @@
   "avoca": {
     "name": "Avoca Beach",
     "region": "Central Coast",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 2,
       "recommendation": "GO TO PUB",
@@ -1531,7 +1531,7 @@
         "wind": {
           "max": 23,
           "direction": "S",
-          "degrees": 175
+          "degrees": 172
         },
         "swell": {
           "max": null
@@ -1548,9 +1548,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 14,
           "direction": "SE",
-          "degrees": 143
+          "degrees": 147
         },
         "swell": {
           "max": null
@@ -1569,7 +1569,7 @@
         "wind": {
           "max": 16,
           "direction": "E",
-          "degrees": 99
+          "degrees": 108
         },
         "swell": {
           "max": null
@@ -1586,9 +1586,9 @@
         "score": 4,
         "recommendation": "SEND IT",
         "wind": {
-          "max": 10,
+          "max": 11,
           "direction": "SE",
-          "degrees": 131
+          "degrees": 129
         },
         "swell": {
           "max": null
@@ -1605,9 +1605,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 15,
+          "max": 14,
           "direction": "SE",
-          "degrees": 123
+          "degrees": 144
         },
         "swell": {
           "max": null
@@ -1624,9 +1624,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 18,
+          "max": 17,
           "direction": "NE",
-          "degrees": 50
+          "degrees": 41
         },
         "swell": {
           "max": null
@@ -1640,12 +1640,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 14,
+          "max": 18,
           "direction": "NW",
-          "degrees": 328
+          "degrees": 298
         },
         "swell": {
           "max": null
@@ -1662,7 +1662,7 @@
   "the_entrance": {
     "name": "The Entrance",
     "region": "Central Coast",
-    "updatedAt": "2026-02-11T19:02:17.672Z",
+    "updatedAt": "2026-02-12T07:00:40.292Z",
     "current": {
       "score": 1,
       "recommendation": "GO TO PUB",
@@ -1679,7 +1679,7 @@
         "speed": 4,
         "direction": "NE",
         "degrees": 24,
-        "max": 27
+        "max": 25
       },
       "swell": {
         "height": null
@@ -1695,7 +1695,7 @@
         "score": 1,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 27,
+          "max": 25,
           "direction": "S",
           "degrees": 173
         },
@@ -1714,9 +1714,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 17,
+          "max": 15,
           "direction": "SE",
-          "degrees": 139
+          "degrees": 144
         },
         "swell": {
           "max": null
@@ -1733,9 +1733,9 @@
         "score": 3,
         "recommendation": "MAYBE",
         "wind": {
-          "max": 16,
+          "max": 17,
           "direction": "E",
-          "degrees": 96
+          "degrees": 99
         },
         "swell": {
           "max": null
@@ -1752,9 +1752,9 @@
         "score": 4,
         "recommendation": "SEND IT",
         "wind": {
-          "max": 10,
+          "max": 11,
           "direction": "E",
-          "degrees": 91
+          "degrees": 111
         },
         "swell": {
           "max": null
@@ -1773,7 +1773,7 @@
         "wind": {
           "max": 13,
           "direction": "SE",
-          "degrees": 122
+          "degrees": 147
         },
         "swell": {
           "max": null
@@ -1790,9 +1790,9 @@
         "score": 2,
         "recommendation": "GO TO PUB",
         "wind": {
-          "max": 19,
+          "max": 18,
           "direction": "NE",
-          "degrees": 48
+          "degrees": 43
         },
         "swell": {
           "max": null
@@ -1806,12 +1806,12 @@
       },
       {
         "date": "2026-02-18",
-        "score": 3,
-        "recommendation": "MAYBE",
+        "score": 2,
+        "recommendation": "GO TO PUB",
         "wind": {
-          "max": 13,
-          "direction": "N",
-          "degrees": 14
+          "max": 18,
+          "direction": "NW",
+          "degrees": 334
         },
         "swell": {
           "max": null
