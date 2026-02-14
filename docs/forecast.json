@@ -13,31 +13,12 @@
       "height": 1.3
     },
     "tide": {
-      "state": "Run-in",
-      "next": "Late morning"
+      "state": "Approx",
+      "next": "Auto"
     },
     "bestTimes": ["Dawn", "Dusk"],
-    "species": ["Bream", "Flathead", "Tailor"],
-    "days": {
-      "fri": {
-        "label": "Fri",
-        "score": 4,
-        "recommendation": "SEND IT",
-        "wind": { "max": 10, "direction": "E" }
-      },
-      "sat": {
-        "label": "Sat",
-        "score": 2,
-        "recommendation": "GO TO PUB",
-        "wind": { "max": 22, "direction": "W" }
-      },
-      "sun": {
-        "label": "Sun",
-        "score": 3,
-        "recommendation": "MAYBE",
-        "wind": { "max": 15, "direction": "NE" }
-      }
-    },
-    "updated": "2026-02-06 18:00"
+    "species": ["Bream", "Flathead"],
+    "days": [],
+    "updated": "ISO_TIMESTAMP"
   }
 }
