@@ -2,8 +2,14 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const LOCATIONS = {
-  hawks_nest: { name: "Hawks Nest", region: "Port Stephens", lat: -32.67, lon: 152.17 }
+  hawks_nest: { name: "Hawks Nest", region: "Port Stephens", lat: -32.67, lon: 152.17 },
+  fingal_bay: { name: "Fingal Bay", region: "Port Stephens", lat: -32.75, lon: 152.18 },
+  newcastle_beach: { name: "Newcastle Beach", region: "Newcastle", lat: -32.93, lon: 151.78 },
+  lake_macquarie: { name: "Lake Macquarie", region: "Lake Macquarie", lat: -33.09, lon: 151.64 },
+  the_entrance: { name: "The Entrance", region: "Central Coast", lat: -33.34, lon: 151.50 },
+  avoca_beach: { name: "Avoca Beach", region: "Central Coast", lat: -33.47, lon: 151.43 }
 };
+
 
 function degToCompass(deg) {
   const dirs = ["N","NE","E","SE","S","SW","W","NW"];
